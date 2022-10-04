@@ -1,0 +1,9 @@
+L 06/30/2022 - 23:05:25: Start of error session.
+L 06/30/2022 - 23:05:25: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220630.log")
+L 06/30/2022 - 23:05:25: [AMXX] Plugin file open error (plugin "test_oo.amxx")
+L 06/30/2022 - 23:10:09: Start of error session.
+L 06/30/2022 - 23:10:09: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220630.log")
+L 06/30/2022 - 23:10:09: [OO] Object (-1195335891) not found
+L 06/30/2022 - 23:10:09: [AMXX] Displaying debug trace (plugin "test_oo.amxx", version "0.1")
+L 06/30/2022 - 23:10:09: [AMXX] Run time error 10: native error (native "oo_send")
+L 06/30/2022 - 23:10:09: [AMXX]    [0] test_oo.sma::plugin_init (line 52)

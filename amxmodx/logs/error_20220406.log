@@ -1,0 +1,63 @@
+L 04/06/2022 - 01:27:04: Start of error session.
+L 04/06/2022 - 01:27:04: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220406.log")
+L 04/06/2022 - 01:27:04: [AMXX] Plugin ("ctg_test.amxx") is setting itself as failed.
+L 04/06/2022 - 01:27:04: [AMXX] Plugin says: xvar:(g_oPlayerHandler) not found
+L 04/06/2022 - 01:27:04: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 01:27:04: [AMXX] Run time error 1: forced exit 
+L 04/06/2022 - 01:27:04: [AMXX]    [0] ctg_test.sma::plugin_init (line 17)
+L 04/06/2022 - 01:33:38: Start of error session.
+L 04/06/2022 - 01:33:38: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220406.log")
+L 04/06/2022 - 01:33:38: [OO] Class (human) not found
+L 04/06/2022 - 01:33:38: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/06/2022 - 01:33:38: [AMXX] Run time error 10: native error (native "oo_new")
+L 04/06/2022 - 01:33:38: [AMXX]    [0] contagion.sma::Player@ChangePlayerClass (line 436)
+L 04/06/2022 - 02:48:43: Start of error session.
+L 04/06/2022 - 02:48:43: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220406.log")
+L 04/06/2022 - 02:48:43: [OO] Sub Class (h) not found
+L 04/06/2022 - 02:48:43: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:48:43: [AMXX] Run time error 10: native error (native "oo_subclass_of")
+L 04/06/2022 - 02:48:43: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:50:23: String formatted incorrectly - parameter 4 (total 3)
+L 04/06/2022 - 02:50:24: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/06/2022 - 02:50:24: [AMXX] Run time error 25: parameter error 
+L 04/06/2022 - 02:50:24: [AMXX]    [0] contagion.sma::PlayerClass@Dtor (line 272)
+L 04/06/2022 - 02:50:24: String formatted incorrectly - parameter 4 (total 3)
+L 04/06/2022 - 02:50:24: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/06/2022 - 02:50:24: [AMXX] Run time error 25: parameter error 
+L 04/06/2022 - 02:50:24: [AMXX]    [0] contagion.sma::PlayerClass@Dtor (line 272)
+L 04/06/2022 - 02:53:14: Start of error session.
+L 04/06/2022 - 02:53:14: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220406.log")
+L 04/06/2022 - 02:53:14: [OO] Sub Class (Humqan) not found
+L 04/06/2022 - 02:53:14: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:53:14: [AMXX] Run time error 10: native error (native "oo_subclass_of")
+L 04/06/2022 - 02:53:14: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:53:17: [OO] Sub Class (Human\) not found
+L 04/06/2022 - 02:53:17: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:53:17: [AMXX] Run time error 10: native error (native "oo_subclass_of")
+L 04/06/2022 - 02:53:17: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:54:22: [OO] Sub Class (Nemesis) not found
+L 04/06/2022 - 02:54:22: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:54:22: [AMXX] Run time error 10: native error (native "oo_subclass_of")
+L 04/06/2022 - 02:54:22: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:56:25: Start of error session.
+L 04/06/2022 - 02:56:25: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220406.log")
+L 04/06/2022 - 02:56:25: [OO] Nemesis Class not found
+L 04/06/2022 - 02:56:25: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:56:25: [AMXX] Run time error 10: native error (native "oo_class_exists")
+L 04/06/2022 - 02:56:25: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:56:46: [OO] Nemesis Class not found
+L 04/06/2022 - 02:56:46: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:56:46: [AMXX] Run time error 10: native error (native "oo_class_exists")
+L 04/06/2022 - 02:56:46: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:56:49: [OO] Nemesis Class not found
+L 04/06/2022 - 02:56:49: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:56:49: [AMXX] Run time error 10: native error (native "oo_class_exists")
+L 04/06/2022 - 02:56:49: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:57:05: [OO] nemesis Class not found
+L 04/06/2022 - 02:57:05: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:57:05: [AMXX] Run time error 10: native error (native "oo_class_exists")
+L 04/06/2022 - 02:57:05: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)
+L 04/06/2022 - 02:57:08: [OO] Nemesis Class not found
+L 04/06/2022 - 02:57:08: [AMXX] Displaying debug trace (plugin "ctg_test.amxx", version "0.1")
+L 04/06/2022 - 02:57:08: [AMXX] Run time error 10: native error (native "oo_class_exists")
+L 04/06/2022 - 02:57:08: [AMXX]    [0] ctg_test.sma::CmdPlayerClass (line 35)

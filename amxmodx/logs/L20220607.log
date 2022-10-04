@@ -1,0 +1,47 @@
+L 06/07/2022 - 00:01:40: [midnight_clean.amxx] saved data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:01:40: [midnight_clean.amxx] performance issue. Function CmdJojo executed more than 4.6ms.
+L 06/07/2022 - 00:02:47: [midnight_clean.amxx] saved data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:02:47: [midnight_clean.amxx] player(1) var reset in game
+L 06/07/2022 - 00:02:47: [midnight_clean.amxx] performance issue. Function client_disconnect executed more than 10.1ms.
+L 06/07/2022 - 00:02:47: -------- Mapchange to de_dust2 --------
+L 06/07/2022 - 00:02:55: [midnight_clean.amxx] performance issue. Function plugin_init executed more than 16.0ms.
+L 06/07/2022 - 00:02:56: [midnight_clean.amxx] loaded data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:02:56: [midnight_clean.amxx] performance issue. Function client_connect executed more than 4.4ms.
+L 06/07/2022 - 00:03:05: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.5ms.
+L 06/07/2022 - 00:03:15: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.9ms.
+L 06/07/2022 - 00:03:25: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.9ms.
+L 06/07/2022 - 00:03:35: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.2ms.
+L 06/07/2022 - 00:03:45: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.1ms.
+L 06/07/2022 - 00:03:55: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.3ms.
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] saved data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] player(1) var reset in game
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] performance issue. Function client_disconnect executed more than 10.7ms.
+L 06/07/2022 - 00:03:58: -------- Mapchange to de_dust2 --------
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] server deleted all data
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] performance issue. Function plugin_init executed more than 8.5ms.
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] loaded data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:03:58: [midnight_clean.amxx] performance issue. Function client_connect executed more than 2.6ms.
+L 06/07/2022 - 00:04:07: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.8ms.
+L 06/07/2022 - 00:04:18: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.2ms.
+L 06/07/2022 - 00:04:28: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.6ms.
+L 06/07/2022 - 00:04:38: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.2ms.
+L 06/07/2022 - 00:04:48: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 4.2ms.
+L 06/07/2022 - 00:04:58: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.5ms.
+L 06/07/2022 - 00:05:08: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.1ms.
+L 06/07/2022 - 00:05:18: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.6ms.
+L 06/07/2022 - 00:05:28: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.6ms.
+L 06/07/2022 - 00:05:38: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.7ms.
+L 06/07/2022 - 00:05:48: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 4.9ms.
+L 06/07/2022 - 00:05:58: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.6ms.
+L 06/07/2022 - 00:06:00: [midnight_clean.amxx] saved data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:06:00: [midnight_clean.amxx] player(1) var reset in game
+L 06/07/2022 - 00:06:00: [midnight_clean.amxx] performance issue. Function client_disconnect executed more than 14.2ms.
+L 06/07/2022 - 00:06:00: -------- Mapchange to de_dust2 --------
+L 06/07/2022 - 00:06:01: [midnight_clean.amxx] performance issue. Function plugin_init executed more than 6.1ms.
+L 06/07/2022 - 00:06:01: [midnight_clean.amxx] loaded data for (STEAM_ID_LAN), value=(50)
+L 06/07/2022 - 00:06:01: [midnight_clean.amxx] performance issue. Function client_connect executed more than 2.3ms.
+L 06/07/2022 - 00:06:10: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.3ms.
+L 06/07/2022 - 00:06:20: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 1.8ms.
+L 06/07/2022 - 00:06:30: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.4ms.
+L 06/07/2022 - 00:06:40: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.2ms.
+L 06/07/2022 - 00:06:50: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.4ms.

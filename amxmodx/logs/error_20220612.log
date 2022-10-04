@@ -1,0 +1,482 @@
+L 06/12/2022 - 16:45:43: Start of error session.
+L 06/12/2022 - 16:45:43: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220612.log")
+L 06/12/2022 - 16:45:43: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:43: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:43: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:43: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:44: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:44: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:44: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:45: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:45: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:45: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:46: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:46: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:46: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:47: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:47: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:47: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:48: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:48: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:48: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:48: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:48: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:48: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:48: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:48: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:48: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:50: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:50: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:50: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:51: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:51: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:51: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:52: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:52: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:52: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:53: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:53: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:53: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:54: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:54: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:54: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:55: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:55: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:55: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:56: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:56: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:56: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:56: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:56: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:56: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:56: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:56: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:56: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/12/2022 - 16:45:56: A global variable can not be bound to multiple Cvars
+L 06/12/2022 - 16:45:56: [AMXX] Run time error 10 (plugin "adminhelp.amxx") (native "bind_pcvar_num") - debug not enabled!
+L 06/12/2022 - 16:45:56: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).

@@ -1,0 +1,14 @@
+L 06/08/2022 - 21:14:20: Start of error session.
+L 06/08/2022 - 21:14:20: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220608.log")
+L 06/08/2022 - 21:14:20: Not currently in a dynamic native
+L 06/08/2022 - 21:14:20: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/08/2022 - 21:14:20: [AMXX] Run time error 10: native error (native "get_param")
+L 06/08/2022 - 21:14:20: [AMXX]    [0] oo.sma::_oo_call_ (line 14)
+L 06/08/2022 - 21:14:20: Not currently in a dynamic native
+L 06/08/2022 - 21:14:20: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/08/2022 - 21:14:20: [AMXX] Run time error 10: native error (native "get_param")
+L 06/08/2022 - 21:14:20: [AMXX]    [0] oo.sma::_oo_call_ (line 14)
+L 06/08/2022 - 21:14:20: Not currently in a dynamic native
+L 06/08/2022 - 21:14:20: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/08/2022 - 21:14:20: [AMXX] Run time error 10: native error (native "get_param")
+L 06/08/2022 - 21:14:20: [AMXX]    [0] oo.sma::_oo_call_ (line 14)

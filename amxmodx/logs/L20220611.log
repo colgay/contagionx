@@ -1,0 +1,155 @@
+L 06/11/2022 - 17:49:58: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 17:49:59: [test_oo.amxx] performance issue. Function oo_init executed more than 3.8ms.
+L 06/11/2022 - 17:50:14: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 17:52:03: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 17:52:03: [test_oo.amxx] performance issue. Function oo_init executed more than 2.8ms.
+L 06/11/2022 - 17:52:04: [oo.amxx] performance issue. Function _oo_call_ executed more than 45.9ms.
+L 06/11/2022 - 17:52:04: [test_oo.amxx] performance issue. Function plugin_init executed more than 54.1ms.
+L 06/11/2022 - 17:53:44: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 17:56:29: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 17:56:30: [oo.amxx] performance issue. Function _oo_call_ executed more than 32.5ms.
+L 06/11/2022 - 17:56:30: [test_oo.amxx] performance issue. Function plugin_init executed more than 40.6ms.
+L 06/11/2022 - 18:00:16: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:00:16: [test_oo.amxx] performance issue. Function oo_init executed more than 1.5ms.
+L 06/11/2022 - 18:00:17: [oo.amxx] performance issue. Function _oo_call_ executed more than 31.9ms.
+L 06/11/2022 - 18:00:17: [test_oo.amxx] performance issue. Function plugin_init executed more than 41.1ms.
+L 06/11/2022 - 18:03:13: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:03:13: [test_oo.amxx] performance issue. Function oo_init executed more than 1.2ms.
+L 06/11/2022 - 18:03:14: [oo.amxx] performance issue. Function _oo_call_ executed more than 32.6ms.
+L 06/11/2022 - 18:03:14: [test_oo.amxx] performance issue. Function plugin_init executed more than 40.7ms.
+L 06/11/2022 - 18:07:20: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:07:20: [test_oo.amxx] performance issue. Function oo_init executed more than 5.0ms.
+L 06/11/2022 - 18:07:22: [oo.amxx] performance issue. Function _oo_call_ executed more than 34.5ms.
+L 06/11/2022 - 18:07:22: [test_oo.amxx] performance issue. Function plugin_init executed more than 39.8ms.
+L 06/11/2022 - 18:07:43: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:07:44: [oo.amxx] performance issue. Function _oo_call_ executed more than 36.8ms.
+L 06/11/2022 - 18:07:44: [test_oo.amxx] performance issue. Function plugin_init executed more than 45.4ms.
+L 06/11/2022 - 18:10:09: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:10:09: [test_oo.amxx] performance issue. Function oo_init executed more than 14.4ms.
+L 06/11/2022 - 18:10:10: [oo.amxx] performance issue. Function plugin_init executed more than 2.1ms.
+L 06/11/2022 - 18:10:10: [oo.amxx] performance issue. Function _oo_call_ executed more than 38.9ms.
+L 06/11/2022 - 18:10:10: [test_oo.amxx] performance issue. Function plugin_init executed more than 51.2ms.
+L 06/11/2022 - 18:12:40: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:12:41: [oo.amxx] performance issue. Function plugin_init executed more than 1.7ms.
+L 06/11/2022 - 18:12:41: [oo.amxx] performance issue. Function _oo_call_ executed more than 32.5ms.
+L 06/11/2022 - 18:12:41: [test_oo.amxx] performance issue. Function plugin_init executed more than 40.3ms.
+L 06/11/2022 - 18:13:48: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:13:48: [test_oo.amxx] performance issue. Function oo_init executed more than 1.8ms.
+L 06/11/2022 - 18:13:48: [oo.amxx] performance issue. Function plugin_init executed more than 2.4ms.
+L 06/11/2022 - 18:13:48: [oo.amxx] performance issue. Function _oo_call_ executed more than 23.1ms.
+L 06/11/2022 - 18:13:48: [test_oo.amxx] performance issue. Function plugin_init executed more than 29.3ms.
+L 06/11/2022 - 18:14:34: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:14:34: [oo.amxx] performance issue. Function _oo_call_ executed more than 34.3ms.
+L 06/11/2022 - 18:14:34: [test_oo.amxx] performance issue. Function plugin_init executed more than 43.1ms.
+L 06/11/2022 - 18:18:30: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:18:31: [oo.amxx] performance issue. Function _oo_call_ executed more than 33.0ms.
+L 06/11/2022 - 18:18:31: [test_oo.amxx] performance issue. Function plugin_init executed more than 43.3ms.
+L 06/11/2022 - 18:20:48: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:20:49: [oo.amxx] performance issue. Function _oo_call_ executed more than 46.2ms.
+L 06/11/2022 - 18:20:49: [test_oo.amxx] performance issue. Function plugin_init executed more than 57.0ms.
+L 06/11/2022 - 18:22:06: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:22:06: [test_oo.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/11/2022 - 18:22:07: [oo.amxx] performance issue. Function _oo_call_ executed more than 29.3ms.
+L 06/11/2022 - 18:22:07: [test_oo.amxx] performance issue. Function plugin_init executed more than 37.5ms.
+L 06/11/2022 - 18:23:21: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:23:21: [test_oo.amxx] performance issue. Function oo_init executed more than 1.8ms.
+L 06/11/2022 - 18:23:21: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 6.8ms.
+L 06/11/2022 - 18:23:22: [oo.amxx] performance issue. Function _oo_call_ executed more than 8.9ms.
+L 06/11/2022 - 18:23:22: [test_oo.amxx] performance issue. Function plugin_init executed more than 34.4ms.
+L 06/11/2022 - 18:25:43: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:25:43: [test_oo.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/11/2022 - 18:25:43: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 24.6ms.
+L 06/11/2022 - 18:25:43: [oo.amxx] performance issue. Function _oo_call_ executed more than 25.9ms.
+L 06/11/2022 - 18:25:43: [test_oo.amxx] performance issue. Function plugin_init executed more than 42.1ms.
+L 06/11/2022 - 18:26:18: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:26:18: [test_oo.amxx] performance issue. Function oo_init executed more than 1.2ms.
+L 06/11/2022 - 18:26:18: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.8ms.
+L 06/11/2022 - 18:26:18: [oo.amxx] performance issue. Function _oo_call_ executed more than 4.1ms.
+L 06/11/2022 - 18:26:18: [test_oo.amxx] performance issue. Function plugin_init executed more than 23.3ms.
+L 06/11/2022 - 18:28:20: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:28:20: [test_oo.amxx] performance issue. Function oo_init executed more than 1.8ms.
+L 06/11/2022 - 18:28:21: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.2ms.
+L 06/11/2022 - 18:28:21: [oo.amxx] performance issue. Function _oo_call_ executed more than 5.7ms.
+L 06/11/2022 - 18:28:21: [test_oo.amxx] performance issue. Function plugin_init executed more than 30.6ms.
+L 06/11/2022 - 18:29:00: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:29:00: [test_oo.amxx] performance issue. Function oo_init executed more than 7.9ms.
+L 06/11/2022 - 18:29:01: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 4.2ms.
+L 06/11/2022 - 18:29:01: [oo.amxx] performance issue. Function _oo_call_ executed more than 10.1ms.
+L 06/11/2022 - 18:29:01: [test_oo.amxx] performance issue. Function plugin_init executed more than 36.0ms.
+L 06/11/2022 - 18:29:42: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:29:42: [test_oo.amxx] performance issue. Function oo_init executed more than 1.7ms.
+L 06/11/2022 - 18:29:42: [oo.amxx] performance issue. Function _oo_call_ executed more than 24.7ms.
+L 06/11/2022 - 18:29:42: [test_oo.amxx] performance issue. Function plugin_init executed more than 30.6ms.
+L 06/11/2022 - 18:30:07: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:30:07: [test_oo.amxx] performance issue. Function oo_init executed more than 1.8ms.
+L 06/11/2022 - 18:30:07: [oo.amxx] performance issue. Function _oo_call_ executed more than 32.0ms.
+L 06/11/2022 - 18:30:07: [test_oo.amxx] performance issue. Function plugin_init executed more than 38.1ms.
+L 06/11/2022 - 18:31:24: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:31:24: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.2ms.
+L 06/11/2022 - 18:31:24: [oo.amxx] performance issue. Function _oo_call_ executed more than 11.1ms.
+L 06/11/2022 - 18:31:24: [test_oo.amxx] performance issue. Function plugin_init executed more than 29.8ms.
+L 06/11/2022 - 18:38:07: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:38:07: [test_oo.amxx] performance issue. Function oo_init executed more than 2.3ms.
+L 06/11/2022 - 18:38:08: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.1ms.
+L 06/11/2022 - 18:38:08: [oo.amxx] performance issue. Function _oo_call_ executed more than 14.1ms.
+L 06/11/2022 - 18:38:08: [test_oo.amxx] performance issue. Function plugin_init executed more than 43.8ms.
+L 06/11/2022 - 18:40:32: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:40:33: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.3ms.
+L 06/11/2022 - 18:40:33: [oo.amxx] performance issue. Function _oo_call_ executed more than 13.7ms.
+L 06/11/2022 - 18:40:33: [test_oo.amxx] performance issue. Function plugin_init executed more than 41.9ms.
+L 06/11/2022 - 18:47:29: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 18:47:29: [test_oo.amxx] performance issue. Function oo_init executed more than 2.3ms.
+L 06/11/2022 - 18:47:30: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.0ms.
+L 06/11/2022 - 18:47:30: [oo.amxx] performance issue. Function _oo_call_ executed more than 13.4ms.
+L 06/11/2022 - 18:47:30: [test_oo.amxx] performance issue. Function plugin_init executed more than 49.3ms.
+L 06/11/2022 - 19:52:56: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 19:52:56: [test_oo.amxx] performance issue. Function oo_init executed more than 4.4ms.
+L 06/11/2022 - 19:52:57: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.7ms.
+L 06/11/2022 - 19:52:57: [oo.amxx] performance issue. Function _oo_call_ executed more than 11.4ms.
+L 06/11/2022 - 19:52:57: [test_oo.amxx] performance issue. Function plugin_init executed more than 42.4ms.
+L 06/11/2022 - 20:00:55: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:00:55: [test_oo.amxx] performance issue. Function oo_init executed more than 3.9ms.
+L 06/11/2022 - 20:00:55: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.1ms.
+L 06/11/2022 - 20:00:55: [oo.amxx] performance issue. Function _oo_call_ executed more than 9.6ms.
+L 06/11/2022 - 20:00:55: [test_oo.amxx] performance issue. Function plugin_init executed more than 46.2ms.
+L 06/11/2022 - 20:03:55: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:03:55: [test_oo.amxx] performance issue. Function oo_init executed more than 1.0ms.
+L 06/11/2022 - 20:03:55: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.1ms.
+L 06/11/2022 - 20:03:55: [oo.amxx] performance issue. Function _oo_call_ executed more than 8.0ms.
+L 06/11/2022 - 20:03:55: [test_oo.amxx] performance issue. Function plugin_init executed more than 33.0ms.
+L 06/11/2022 - 20:05:33: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:05:33: [test_oo.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/11/2022 - 20:05:33: [oo.amxx] performance issue. Function _oo_call_ executed more than 5.1ms.
+L 06/11/2022 - 20:05:33: [test_oo.amxx] performance issue. Function plugin_init executed more than 10.3ms.
+L 06/11/2022 - 20:18:22: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:18:22: [test_oo.amxx] performance issue. Function oo_init executed more than 1.3ms.
+L 06/11/2022 - 20:18:23: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.0ms.
+L 06/11/2022 - 20:18:23: [oo.amxx] performance issue. Function _oo_call_ executed more than 6.7ms.
+L 06/11/2022 - 20:18:23: [test_oo.amxx] performance issue. Function plugin_init executed more than 26.4ms.
+L 06/11/2022 - 20:22:55: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:22:56: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.1ms.
+L 06/11/2022 - 20:22:56: [oo.amxx] performance issue. Function _oo_call_ executed more than 11.8ms.
+L 06/11/2022 - 20:22:56: [test_oo.amxx] performance issue. Function plugin_init executed more than 43.2ms.
+L 06/11/2022 - 20:35:55: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:35:56: [test_oo.amxx] performance issue. Function oo_init executed more than 2.1ms.
+L 06/11/2022 - 20:35:56: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 3.2ms.
+L 06/11/2022 - 20:35:56: [oo.amxx] performance issue. Function _oo_call_ executed more than 12.1ms.
+L 06/11/2022 - 20:35:56: [test_oo.amxx] performance issue. Function plugin_init executed more than 32.5ms.
+L 06/11/2022 - 20:37:10: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:37:10: [test_oo.amxx] performance issue. Function oo_init executed more than 1.5ms.
+L 06/11/2022 - 20:37:11: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 1.3ms.
+L 06/11/2022 - 20:37:11: [oo.amxx] performance issue. Function _oo_call_ executed more than 10.3ms.
+L 06/11/2022 - 20:37:11: [test_oo.amxx] performance issue. Function plugin_init executed more than 47.2ms.
+L 06/11/2022 - 20:38:38: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:38:38: [test_oo.amxx] performance issue. Function oo_init executed more than 1.6ms.
+L 06/11/2022 - 20:38:38: [oo.amxx] performance issue. Function _oo_call_ executed more than 6.3ms.
+L 06/11/2022 - 20:38:38: [test_oo.amxx] performance issue. Function plugin_init executed more than 17.7ms.
+L 06/11/2022 - 20:55:40: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:55:40: [test_oo.amxx] performance issue. Function oo_init executed more than 1.3ms.
+L 06/11/2022 - 20:57:59: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:58:00: [oo.amxx] performance issue. Function _oo_call_ executed more than 47.3ms.
+L 06/11/2022 - 20:58:00: [oo.amxx] performance issue. Function _oo_call_ executed more than 59.6ms.
+L 06/11/2022 - 20:58:00: [oo.amxx] performance issue. Function _oo_call_ executed more than 14.5ms.
+L 06/11/2022 - 20:58:00: [test_oo.amxx] performance issue. Function plugin_init executed more than 112.2ms.
+L 06/11/2022 - 20:58:56: -------- Mapchange to de_dust2 --------
+L 06/11/2022 - 20:58:56: [test_oo.amxx] performance issue. Function plugin_init executed more than 3.5ms.

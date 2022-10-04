@@ -1,0 +1,10 @@
+L 05/06/2022 - 23:09:51: -------- Mapchange to de_dust2 --------
+L 05/06/2022 - 23:09:55: [oo.amxx] performance issue. Function plugin_init executed more than 12.2ms.
+L 05/06/2022 - 23:27:56: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/06/2022 - 23:28:11: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 05/06/2022 - 23:30:05: -------- Mapchange to de_airstrip --------
+L 05/06/2022 - 23:30:05: [oo.amxx] performance issue. Function plugin_init executed more than 9.2ms.
+L 05/06/2022 - 23:48:05: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/06/2022 - 23:48:20: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_havana
+L 05/06/2022 - 23:50:14: -------- Mapchange to cs_havana --------
+L 05/06/2022 - 23:50:15: [oo.amxx] performance issue. Function plugin_init executed more than 10.2ms.

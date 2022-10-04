@@ -1,0 +1,83 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": {
+                "value": "\"${workspaceFolder}/../amxxpc.exe\"",
+                "quoting": "strong"
+            },
+            "args": [
+                {
+                    "value": "\"${file}\"",
+                    "quoting": "strong"
+                },
+                {
+                    "value": "-i\"${workspaceFolder}/../include\"",
+                    "quoting": "strong"
+                },
+                {
+                    "value": "-i\"${workspaceFolder}/include\"",
+                    "quoting": "strong"
+                },
+                {
+                    "value": "-o\"${workspaceFolder}/compiled/${fileBasenameNoExtension}.amxx\"",
+                    "quoting": "strong"
+                }
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true,
+                "showReuseMessage": true
+            },
+            "problemMatcher": {
+                "owner": "amxxpawn",
+                "fileLocation": "autoDetect",
+                "pattern": {
+                    "regexp": "^(.*)\\(([0-9]+)\\) \\: (fatal error|error|warning) [0-9]+\\: (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
+        },
+        {
+            "label": "copy amxx",
+            "type": "shell",
+            "command": "robocopy",
+            "args": [
+                {
+                    "value": "\"${workspaceFolder}\\compiled\"",
+                    "quoting": "strong"
+                },
+                {
+                    "value": "\"${workspaceFolder}\\..\\..\\plugins\"",
+                    "quoting": "strong"
+                },
+                "*.amxx",
+                "/xo"
+            ],
+            "presentation": {
+                "focus": false,
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "compile and copy",
+            "dependsOn": [
+                "compile",
+                "copy amxx"
+            ],
+            "dependsOrder": "sequence",
+            "problemMatcher": []
+        }
+    ]
+}

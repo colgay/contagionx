@@ -1,0 +1,58 @@
+L 06/14/2022 - 00:32:59: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:33:03: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.2ms.
+L 06/14/2022 - 00:33:03: [test_oo.amxx] performance issue. Function plugin_init executed more than 8.6ms.
+L 06/14/2022 - 00:33:49: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:33:49: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.7ms.
+L 06/14/2022 - 00:33:49: [test_oo.amxx] performance issue. Function plugin_init executed more than 7.6ms.
+L 06/14/2022 - 00:34:30: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:34:31: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.2ms.
+L 06/14/2022 - 00:34:31: [test_oo.amxx] performance issue. Function plugin_init executed more than 7.7ms.
+L 06/14/2022 - 00:34:40: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:34:40: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.9ms.
+L 06/14/2022 - 00:34:40: [test_oo.amxx] performance issue. Function plugin_init executed more than 8.2ms.
+L 06/14/2022 - 00:35:17: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:35:18: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.4ms.
+L 06/14/2022 - 00:35:18: [test_oo.amxx] performance issue. Function plugin_init executed more than 8.0ms.
+L 06/14/2022 - 00:37:09: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:37:09: [test_oo.amxx] performance issue. Function Player@Ctor executed more than 2.4ms.
+L 06/14/2022 - 00:37:09: [test_oo.amxx] performance issue. Function plugin_init executed more than 7.7ms.
+L 06/14/2022 - 00:37:21: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:38:21: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:39:09: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:39:10: [sort_gay.amxx] performance issue. Function plugin_init executed more than 35.9ms.
+L 06/14/2022 - 00:41:14: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:41:14: [sort_gay.amxx] performance issue. Function plugin_init executed more than 38.1ms.
+L 06/14/2022 - 00:42:43: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:42:44: [sort_gay.amxx] performance issue. Function plugin_init executed more than 37.5ms.
+L 06/14/2022 - 00:42:49: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:42:49: [sort_gay.amxx] performance issue. Function plugin_init executed more than 35.8ms.
+L 06/14/2022 - 00:43:32: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:43:32: [sort_gay.amxx] performance issue. Function plugin_init executed more than 38.2ms.
+L 06/14/2022 - 00:43:37: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:43:37: [sort_gay.amxx] performance issue. Function plugin_init executed more than 34.7ms.
+L 06/14/2022 - 00:44:34: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:44:34: [sort_gay.amxx] performance issue. Function plugin_init executed more than 46.9ms.
+L 06/14/2022 - 00:45:18: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:45:18: [sort_gay.amxx] performance issue. Function plugin_init executed more than 50.2ms.
+L 06/14/2022 - 00:45:24: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:45:25: [sort_gay.amxx] performance issue. Function plugin_init executed more than 46.7ms.
+L 06/14/2022 - 00:45:51: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:45:52: [sort_gay.amxx] performance issue. Function plugin_init executed more than 48.0ms.
+L 06/14/2022 - 00:46:13: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:46:14: [sort_gay.amxx] performance issue. Function plugin_init executed more than 47.4ms.
+L 06/14/2022 - 00:56:53: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:56:53: [sort_gay.amxx] performance issue. Function plugin_init executed more than 48.7ms.
+L 06/14/2022 - 00:57:02: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:02: [sort_gay.amxx] performance issue. Function plugin_init executed more than 47.5ms.
+L 06/14/2022 - 00:57:06: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:07: [sort_gay.amxx] performance issue. Function plugin_init executed more than 51.0ms.
+L 06/14/2022 - 00:57:09: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:10: [sort_gay.amxx] performance issue. Function plugin_init executed more than 47.6ms.
+L 06/14/2022 - 00:57:13: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:13: [sort_gay.amxx] performance issue. Function plugin_init executed more than 48.9ms.
+L 06/14/2022 - 00:57:16: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:17: [sort_gay.amxx] performance issue. Function plugin_init executed more than 49.0ms.
+L 06/14/2022 - 00:57:19: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:20: [sort_gay.amxx] performance issue. Function plugin_init executed more than 46.9ms.
+L 06/14/2022 - 00:57:21: -------- Mapchange to de_dust2 --------
+L 06/14/2022 - 00:57:22: [sort_gay.amxx] performance issue. Function plugin_init executed more than 50.8ms.

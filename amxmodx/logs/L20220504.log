@@ -1,0 +1,55 @@
+L 05/04/2022 - 00:30:04: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 00:31:52: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 20:41:37: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 20:41:41: [hahajai.amxx] performance issue. Function plugin_init executed more than 1.1ms.
+L 05/04/2022 - 20:44:07: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 20:44:07: [hahajai.amxx] performance issue. Function plugin_init executed more than 71.9ms.
+L 05/04/2022 - 20:45:19: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 20:45:19: [hahajai.amxx] performance issue. Function plugin_init executed more than 71.8ms.
+L 05/04/2022 - 20:45:19: [hahajai.amxx] performance issue. Function plugin_cfg executed more than 71.7ms.
+L 05/04/2022 - 20:53:33: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 20:53:34: [hahajai.amxx] performance issue. Function plugin_init executed more than 1.2ms.
+L 05/04/2022 - 21:11:33: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 21:11:48: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 05/04/2022 - 21:13:42: -------- Mapchange to de_aztec --------
+L 05/04/2022 - 21:13:43: [hahajai.amxx] performance issue. Function plugin_init executed more than 3.2ms.
+L 05/04/2022 - 21:13:43: [hahajai.amxx] performance issue. Function plugin_cfg executed more than 2.9ms.
+L 05/04/2022 - 21:31:42: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 21:31:57: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 05/04/2022 - 21:33:51: -------- Mapchange to as_oilrig --------
+L 05/04/2022 - 21:33:52: [hahajai.amxx] performance issue. Function plugin_init executed more than 1.8ms.
+L 05/04/2022 - 21:33:52: [hahajai.amxx] performance issue. Function plugin_cfg executed more than 1.4ms.
+L 05/04/2022 - 21:51:51: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 21:52:06: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_siege
+L 05/04/2022 - 21:54:00: -------- Mapchange to cs_siege --------
+L 05/04/2022 - 21:54:00: [hahajai.amxx] performance issue. Function plugin_init executed more than 2.8ms.
+L 05/04/2022 - 21:54:00: [hahajai.amxx] performance issue. Function plugin_cfg executed more than 1.6ms.
+L 05/04/2022 - 22:10:34: -------- Mapchange to cs_siege --------
+L 05/04/2022 - 22:10:34: [hahajai.amxx] performance issue. Function plugin_init executed more than 91.1ms.
+L 05/04/2022 - 22:10:54: -------- Mapchange to cs_siege --------
+L 05/04/2022 - 22:10:54: [hahajai.amxx] performance issue. Function plugin_init executed more than 7.7ms.
+L 05/04/2022 - 22:11:36: -------- Mapchange to cs_siege --------
+L 05/04/2022 - 22:11:37: [hahajai.amxx] performance issue. Function plugin_init executed more than 88.7ms.
+L 05/04/2022 - 22:16:46: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 22:17:08: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 22:17:37: [hahajai.amxx] performance issue. Function plugin_init executed more than 28257.2ms.
+L 05/04/2022 - 22:18:02: -------- Mapchange to de_dust2 --------
+L 05/04/2022 - 22:18:29: [hahajai.amxx] performance issue. Function plugin_init executed more than 26827.7ms.
+L 05/04/2022 - 22:36:30: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 22:36:45: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 05/04/2022 - 22:38:39: -------- Mapchange to de_airstrip --------
+L 05/04/2022 - 22:39:07: [hahajai.amxx] performance issue. Function plugin_init executed more than 27924.4ms.
+L 05/04/2022 - 22:43:31: -------- Mapchange to de_airstrip --------
+L 05/04/2022 - 22:43:49: [hahajai.amxx] performance issue. Function plugin_init executed more than 17456.4ms.
+L 05/04/2022 - 23:01:48: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 23:02:03: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 05/04/2022 - 23:03:58: -------- Mapchange to de_chateau --------
+L 05/04/2022 - 23:04:16: [hahajai.amxx] performance issue. Function plugin_init executed more than 18143.1ms.
+L 05/04/2022 - 23:22:16: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 23:22:31: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 05/04/2022 - 23:24:25: -------- Mapchange to de_aztec --------
+L 05/04/2022 - 23:24:43: [hahajai.amxx] performance issue. Function plugin_init executed more than 17864.2ms.
+L 05/04/2022 - 23:42:42: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/04/2022 - 23:42:57: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 05/04/2022 - 23:44:51: -------- Mapchange to as_oilrig --------
+L 05/04/2022 - 23:45:10: [hahajai.amxx] performance issue. Function plugin_init executed more than 18582.6ms.

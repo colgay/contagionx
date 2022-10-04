@@ -1,0 +1,110 @@
+L 06/11/2022 - 17:52:04: Start of error session.
+L 06/11/2022 - 17:52:04: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 17:52:04: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 17:52:04: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 17:52:04: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 17:52:04: [AMXX]    [0] oo.sma::_oo_call_ (line 39)
+L 06/11/2022 - 17:56:30: Start of error session.
+L 06/11/2022 - 17:56:30: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 17:56:30: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 17:56:30: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 17:56:30: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 17:56:30: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:00:17: Start of error session.
+L 06/11/2022 - 18:00:17: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:00:17: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:00:17: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:00:17: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:00:17: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:03:14: Start of error session.
+L 06/11/2022 - 18:03:14: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:03:14: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:03:14: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:03:14: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:03:14: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:07:22: Start of error session.
+L 06/11/2022 - 18:07:22: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:07:22: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:07:22: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:07:22: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:07:22: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:07:44: Start of error session.
+L 06/11/2022 - 18:07:44: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:07:44: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:07:44: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:07:44: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:07:44: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:10:10: Start of error session.
+L 06/11/2022 - 18:10:10: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:10:10: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:10:10: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:10:10: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:10:10: [AMXX]    [0] oo.sma::_oo_call_ (line 43)
+L 06/11/2022 - 18:12:41: Start of error session.
+L 06/11/2022 - 18:12:41: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:12:41: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:12:41: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:12:41: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:12:41: [AMXX]    [0] oo.sma::_oo_call_ (line 43)
+L 06/11/2022 - 18:13:48: Start of error session.
+L 06/11/2022 - 18:13:48: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:13:48: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:13:48: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:13:48: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:13:48: [AMXX]    [0] oo.sma::_oo_call_ (line 43)
+L 06/11/2022 - 18:14:34: Start of error session.
+L 06/11/2022 - 18:14:34: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:14:34: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:14:34: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:14:34: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:14:34: [AMXX]    [0] oo.sma::_oo_call_ (line 40)
+L 06/11/2022 - 18:18:31: Start of error session.
+L 06/11/2022 - 18:18:31: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:18:31: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:18:31: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:18:31: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:18:31: [AMXX]    [0] oo.sma::_oo_call_ (line 46)
+L 06/11/2022 - 18:20:49: Start of error session.
+L 06/11/2022 - 18:20:49: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:20:49: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:20:49: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:20:49: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:20:49: [AMXX]    [0] oo.sma::_oo_call_ (line 46)
+L 06/11/2022 - 18:22:07: Start of error session.
+L 06/11/2022 - 18:22:07: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:22:07: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 18:22:07: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:22:07: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 18:22:07: [AMXX]    [0] oo.sma::_oo_call_ (line 46)
+L 06/11/2022 - 18:25:43: Start of error session.
+L 06/11/2022 - 18:25:43: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:25:43: String formatted incorrectly - parameter 6 (total 5)
+L 06/11/2022 - 18:25:43: [AMXX] Displaying debug trace (plugin "test_oo.amxx", version "0.1")
+L 06/11/2022 - 18:25:43: [AMXX] Run time error 25: parameter error 
+L 06/11/2022 - 18:25:43: [AMXX]    [0] test_oo.sma::Player@Ctor (line 28)
+L 06/11/2022 - 18:29:42: Start of error session.
+L 06/11/2022 - 18:29:42: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:29:42: String formatted incorrectly - parameter 3 (total 2)
+L 06/11/2022 - 18:29:42: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:29:42: [AMXX] Run time error 25: parameter error 
+L 06/11/2022 - 18:29:42: [AMXX]    [0] oo.sma::_oo_call_ (line 35)
+L 06/11/2022 - 18:29:43: callfunc_begin called without callfunc_end
+L 06/11/2022 - 18:29:43: [AMXX] Run time error 10 (plugin "pluginmenu.amxx") (native "callfunc_begin") - debug not enabled!
+L 06/11/2022 - 18:29:43: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/11/2022 - 18:30:07: Start of error session.
+L 06/11/2022 - 18:30:07: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 18:30:07: callfunc_begin called without callfunc_end
+L 06/11/2022 - 18:30:07: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 18:30:07: [AMXX] Run time error 10: native error (native "callfunc_begin_i")
+L 06/11/2022 - 18:30:07: [AMXX]    [0] oo.sma::_oo_call_ (line 11)
+L 06/11/2022 - 18:30:07: callfunc_begin called without callfunc_end
+L 06/11/2022 - 18:30:07: [AMXX] Run time error 10 (plugin "pluginmenu.amxx") (native "callfunc_begin") - debug not enabled!
+L 06/11/2022 - 18:30:07: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 06/11/2022 - 20:58:00: Start of error session.
+L 06/11/2022 - 20:58:00: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220611.log")
+L 06/11/2022 - 20:58:00: callfunc_push_xxx called without callfunc_begin
+L 06/11/2022 - 20:58:00: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 20:58:00: [AMXX] Run time error 10: native error (native "callfunc_push_int")
+L 06/11/2022 - 20:58:00: [AMXX]    [0] oo.sma::_oo_call_ (line 72)
+L 06/11/2022 - 20:58:00: [AMXX] Displaying debug trace (plugin "oo.amxx", version "0.1")
+L 06/11/2022 - 20:58:00: [AMXX] Run time error 20: invalid entry point 

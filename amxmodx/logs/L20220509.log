@@ -1,0 +1,492 @@
+L 05/09/2022 - 01:35:53: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 01:35:57: [oo.amxx] performance issue. Function plugin_init executed more than 14.6ms.
+L 05/09/2022 - 01:37:40: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 01:37:41: [oo.amxx] performance issue. Function plugin_init executed more than 117.0ms.
+L 05/09/2022 - 01:38:46: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 01:38:47: [oo.amxx] performance issue. Function plugin_init executed more than 43.2ms.
+L 05/09/2022 - 03:10:04: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 03:10:04: [oo.amxx] performance issue. Function plugin_init executed more than 30.0ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 20.3ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 23.3ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 20.3ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 19.3ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 18.5ms.
+L 05/09/2022 - 03:10:10: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 19.1ms.
+L 05/09/2022 - 03:10:11: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 18.0ms.
+L 05/09/2022 - 03:10:11: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 19.1ms.
+L 05/09/2022 - 03:11:09: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 03:11:09: [oo.amxx] performance issue. Function plugin_init executed more than 31.9ms.
+L 05/09/2022 - 03:11:13: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.3ms.
+L 05/09/2022 - 03:11:13: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 19.8ms.
+L 05/09/2022 - 03:11:13: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 23.2ms.
+L 05/09/2022 - 03:11:13: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.9ms.
+L 05/09/2022 - 03:11:13: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 30.7ms.
+L 05/09/2022 - 03:14:10: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 03:14:10: [oo.amxx] performance issue. Function plugin_init executed more than 34.5ms.
+L 05/09/2022 - 03:14:13: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.2ms.
+L 05/09/2022 - 03:14:13: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.9ms.
+L 05/09/2022 - 03:14:13: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 19.4ms.
+L 05/09/2022 - 03:32:10: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 03:32:25: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 05/09/2022 - 03:34:19: -------- Mapchange to de_chateau --------
+L 05/09/2022 - 03:34:19: [oo.amxx] performance issue. Function plugin_init executed more than 31.2ms.
+L 05/09/2022 - 03:52:19: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 03:52:34: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 05/09/2022 - 03:54:28: -------- Mapchange to de_aztec --------
+L 05/09/2022 - 03:54:28: [oo.amxx] performance issue. Function plugin_init executed more than 36.0ms.
+L 05/09/2022 - 04:12:27: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 04:12:43: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 05/09/2022 - 04:14:37: -------- Mapchange to as_oilrig --------
+L 05/09/2022 - 04:14:37: [oo.amxx] performance issue. Function plugin_init executed more than 36.5ms.
+L 05/09/2022 - 04:28:46: -------- Mapchange to as_oilrig --------
+L 05/09/2022 - 04:28:46: [AMXX] Plugin "ctg_Human.amxx" failed to load: Plugin uses an unknown function (name "oo_write") - check your modules.ini.
+L 05/09/2022 - 04:28:46: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.7ms.
+L 05/09/2022 - 04:28:46: [oo.amxx] performance issue. Function native_call executed more than 5.0ms.
+L 05/09/2022 - 04:28:46: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 15.4ms.
+L 05/09/2022 - 04:28:46: [oo.amxx] performance issue. Function native_new executed more than 25.8ms.
+L 05/09/2022 - 04:28:46: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 36.5ms.
+L 05/09/2022 - 04:28:46: [oo.amxx] performance issue. Function plugin_init executed more than 44.3ms.
+L 05/09/2022 - 04:29:52: -------- Mapchange to as_oilrig --------
+L 05/09/2022 - 04:29:53: [oo.amxx] performance issue. Function plugin_init executed more than 45.1ms.
+L 05/09/2022 - 04:32:39: -------- Mapchange to as_oilrig --------
+L 05/09/2022 - 04:32:39: [oo.amxx] performance issue. Function plugin_init executed more than 54.2ms.
+L 05/09/2022 - 04:33:45: -------- Mapchange to as_oilrig --------
+L 05/09/2022 - 04:33:45: [oo.amxx] performance issue. Function plugin_init executed more than 60.1ms.
+L 05/09/2022 - 04:33:50: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.8ms.
+L 05/09/2022 - 04:33:58: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.4ms.
+L 05/09/2022 - 04:34:06: [admincmd.amxx] Cmd: "Counter-Strike 1.6 Server<0><><>" changelevel "de_dust2"
+L 05/09/2022 - 04:34:10: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 2.1ms.
+L 05/09/2022 - 04:34:10: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:34:11: [oo.amxx] performance issue. Function plugin_init executed more than 97.3ms.
+L 05/09/2022 - 04:34:15: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.2ms.
+L 05/09/2022 - 04:34:15: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.9ms.
+L 05/09/2022 - 04:34:16: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.8ms.
+L 05/09/2022 - 04:34:27: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetMaxSpeed executed more than 26.4ms.
+L 05/09/2022 - 04:34:27: [oo.amxx] performance issue. Function native_call executed more than 29.3ms.
+L 05/09/2022 - 04:34:27: [ctg_Player.amxx] performance issue. Function OnPlayerResetMaxspeed_Post executed more than 39.6ms.
+L 05/09/2022 - 04:34:27: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetProperties executed more than 56.2ms.
+L 05/09/2022 - 04:34:27: [oo.amxx] performance issue. Function native_call executed more than 87.4ms.
+L 05/09/2022 - 04:34:27: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 113.8ms.
+L 05/09/2022 - 04:34:27: [oo.amxx] performance issue. Function native_call executed more than 117.9ms.
+L 05/09/2022 - 04:34:27: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 128.9ms.
+L 05/09/2022 - 04:34:43: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 29.1ms.
+L 05/09/2022 - 04:34:43: [oo.amxx] performance issue. Function native_call executed more than 30.9ms.
+L 05/09/2022 - 04:34:43: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 44.4ms.
+L 05/09/2022 - 04:34:44: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 25.5ms.
+L 05/09/2022 - 04:34:44: [oo.amxx] performance issue. Function native_call executed more than 29.9ms.
+L 05/09/2022 - 04:34:44: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 42.3ms.
+L 05/09/2022 - 04:34:45: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 20.6ms.
+L 05/09/2022 - 04:34:45: [oo.amxx] performance issue. Function native_call executed more than 22.5ms.
+L 05/09/2022 - 04:34:45: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 35.5ms.
+L 05/09/2022 - 04:34:45: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 21.8ms.
+L 05/09/2022 - 04:34:45: [oo.amxx] performance issue. Function native_call executed more than 22.9ms.
+L 05/09/2022 - 04:34:45: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 35.1ms.
+L 05/09/2022 - 04:34:45: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 20.4ms.
+L 05/09/2022 - 04:34:45: [oo.amxx] performance issue. Function native_call executed more than 21.6ms.
+L 05/09/2022 - 04:34:45: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 34.0ms.
+L 05/09/2022 - 04:34:45: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 21.7ms.
+L 05/09/2022 - 04:34:45: [oo.amxx] performance issue. Function native_call executed more than 22.9ms.
+L 05/09/2022 - 04:34:45: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 36.8ms.
+L 05/09/2022 - 04:34:46: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 24.2ms.
+L 05/09/2022 - 04:34:46: [oo.amxx] performance issue. Function native_call executed more than 25.7ms.
+L 05/09/2022 - 04:34:46: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 44.5ms.
+L 05/09/2022 - 04:34:48: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 22.9ms.
+L 05/09/2022 - 04:34:48: [oo.amxx] performance issue. Function native_call executed more than 24.3ms.
+L 05/09/2022 - 04:34:48: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 42.0ms.
+L 05/09/2022 - 04:34:48: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 21.8ms.
+L 05/09/2022 - 04:34:48: [oo.amxx] performance issue. Function native_call executed more than 26.8ms.
+L 05/09/2022 - 04:34:48: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 36.7ms.
+L 05/09/2022 - 04:34:48: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 21.5ms.
+L 05/09/2022 - 04:34:48: [oo.amxx] performance issue. Function native_call executed more than 24.1ms.
+L 05/09/2022 - 04:34:48: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 35.8ms.
+L 05/09/2022 - 04:34:49: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 22.5ms.
+L 05/09/2022 - 04:34:49: [oo.amxx] performance issue. Function native_call executed more than 24.5ms.
+L 05/09/2022 - 04:34:49: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 36.8ms.
+L 05/09/2022 - 04:35:04: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 28.1ms.
+L 05/09/2022 - 04:35:04: [oo.amxx] performance issue. Function native_call executed more than 30.7ms.
+L 05/09/2022 - 04:35:04: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 55.6ms.
+L 05/09/2022 - 04:35:04: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@ChangeSound executed more than 22.9ms.
+L 05/09/2022 - 04:35:04: [oo.amxx] performance issue. Function native_call executed more than 24.1ms.
+L 05/09/2022 - 04:35:04: [ctg_Player.amxx] performance issue. Function OnEmitSound executed more than 37.8ms.
+L 05/09/2022 - 04:35:28: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.3ms.
+L 05/09/2022 - 04:35:28: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.2ms.
+L 05/09/2022 - 04:35:28: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:35:28: [oo.amxx] performance issue. Function plugin_init executed more than 78.0ms.
+L 05/09/2022 - 04:35:28: [ctg_Player.amxx] performance issue. Function client_connect executed more than 3.2ms.
+L 05/09/2022 - 04:35:32: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.5ms.
+L 05/09/2022 - 04:35:32: [ctg_Player.amxx] performance issue. Function client_connect executed more than 7.2ms.
+L 05/09/2022 - 04:35:32: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.7ms.
+L 05/09/2022 - 04:35:47: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 2.3ms.
+L 05/09/2022 - 04:35:47: [oo.amxx] performance issue. Function native_call executed more than 3.6ms.
+L 05/09/2022 - 04:35:47: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 19.4ms.
+L 05/09/2022 - 04:36:46: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.3ms.
+L 05/09/2022 - 04:36:46: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:36:47: [oo.amxx] performance issue. Function plugin_init executed more than 71.6ms.
+L 05/09/2022 - 04:36:47: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.3ms.
+L 05/09/2022 - 04:36:51: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.3ms.
+L 05/09/2022 - 04:36:51: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.8ms.
+L 05/09/2022 - 04:36:51: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.9ms.
+L 05/09/2022 - 04:36:55: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 3.4ms.
+L 05/09/2022 - 04:36:55: [oo.amxx] performance issue. Function native_call executed more than 6.1ms.
+L 05/09/2022 - 04:36:55: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 19.0ms.
+L 05/09/2022 - 04:37:09: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 2.2ms.
+L 05/09/2022 - 04:37:09: [oo.amxx] performance issue. Function native_call executed more than 4.7ms.
+L 05/09/2022 - 04:37:09: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 18.2ms.
+L 05/09/2022 - 04:37:53: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 2.5ms.
+L 05/09/2022 - 04:37:53: [oo.amxx] performance issue. Function native_call executed more than 4.4ms.
+L 05/09/2022 - 04:37:53: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 22.1ms.
+L 05/09/2022 - 04:41:15: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 3.9ms.
+L 05/09/2022 - 04:41:15: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 3.1ms.
+L 05/09/2022 - 04:41:15: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 2.2ms.
+L 05/09/2022 - 04:41:15: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.3ms.
+L 05/09/2022 - 04:41:15: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:41:15: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 2.3ms.
+L 05/09/2022 - 04:41:15: [oo.amxx] performance issue. Function native_call executed more than 3.7ms.
+L 05/09/2022 - 04:41:15: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 16.8ms.
+L 05/09/2022 - 04:41:15: [oo.amxx] performance issue. Function native_new executed more than 31.6ms.
+L 05/09/2022 - 04:41:15: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 42.5ms.
+L 05/09/2022 - 04:41:15: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.6ms.
+L 05/09/2022 - 04:41:15: [oo.amxx] performance issue. Function native_call executed more than 13.7ms.
+L 05/09/2022 - 04:41:15: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.8ms.
+L 05/09/2022 - 04:41:15: [oo.amxx] performance issue. Function native_new executed more than 43.5ms.
+L 05/09/2022 - 04:41:15: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 51.5ms.
+L 05/09/2022 - 04:41:16: [oo.amxx] performance issue. Function plugin_init executed more than 72.5ms.
+L 05/09/2022 - 04:41:16: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.2ms.
+L 05/09/2022 - 04:41:33: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:41:33: [oo.amxx] performance issue. Function plugin_init executed more than 75.1ms.
+L 05/09/2022 - 04:41:34: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.4ms.
+L 05/09/2022 - 04:42:48: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:42:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.4ms.
+L 05/09/2022 - 04:42:48: [oo.amxx] performance issue. Function native_call executed more than 2.8ms.
+L 05/09/2022 - 04:42:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 15.9ms.
+L 05/09/2022 - 04:42:48: [oo.amxx] performance issue. Function native_new executed more than 28.2ms.
+L 05/09/2022 - 04:42:48: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 40.3ms.
+L 05/09/2022 - 04:42:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.3ms.
+L 05/09/2022 - 04:42:48: [oo.amxx] performance issue. Function native_call executed more than 13.4ms.
+L 05/09/2022 - 04:42:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.1ms.
+L 05/09/2022 - 04:42:48: [oo.amxx] performance issue. Function native_new executed more than 39.8ms.
+L 05/09/2022 - 04:42:48: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 51.7ms.
+L 05/09/2022 - 04:42:49: [oo.amxx] performance issue. Function plugin_init executed more than 78.5ms.
+L 05/09/2022 - 04:42:49: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.1ms.
+L 05/09/2022 - 04:44:11: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.0ms.
+L 05/09/2022 - 04:44:11: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:44:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 2.3ms.
+L 05/09/2022 - 04:44:11: [oo.amxx] performance issue. Function native_call executed more than 3.8ms.
+L 05/09/2022 - 04:44:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 18.7ms.
+L 05/09/2022 - 04:44:11: [oo.amxx] performance issue. Function native_new executed more than 30.8ms.
+L 05/09/2022 - 04:44:11: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 41.6ms.
+L 05/09/2022 - 04:44:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 4.2ms.
+L 05/09/2022 - 04:44:11: [oo.amxx] performance issue. Function native_call executed more than 13.5ms.
+L 05/09/2022 - 04:44:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 29.0ms.
+L 05/09/2022 - 04:44:11: [oo.amxx] performance issue. Function native_new executed more than 40.2ms.
+L 05/09/2022 - 04:44:11: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 52.2ms.
+L 05/09/2022 - 04:44:12: [oo.amxx] performance issue. Function plugin_init executed more than 71.4ms.
+L 05/09/2022 - 04:44:12: [ctg_Player.amxx] performance issue. Function client_connect executed more than 2.1ms.
+L 05/09/2022 - 04:46:11: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 04:46:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 2.4ms.
+L 05/09/2022 - 04:46:11: [oo.amxx] performance issue. Function native_call executed more than 4.2ms.
+L 05/09/2022 - 04:46:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 19.3ms.
+L 05/09/2022 - 04:46:11: [oo.amxx] performance issue. Function native_new executed more than 30.0ms.
+L 05/09/2022 - 04:46:11: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 43.5ms.
+L 05/09/2022 - 04:46:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.1ms.
+L 05/09/2022 - 04:46:11: [oo.amxx] performance issue. Function native_call executed more than 13.6ms.
+L 05/09/2022 - 04:46:11: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 31.0ms.
+L 05/09/2022 - 04:46:11: [oo.amxx] performance issue. Function native_new executed more than 42.6ms.
+L 05/09/2022 - 04:46:11: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 53.6ms.
+L 05/09/2022 - 04:46:11: [oo.amxx] performance issue. Function plugin_init executed more than 84.6ms.
+L 05/09/2022 - 04:46:12: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.9ms.
+L 05/09/2022 - 04:56:16: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.3ms.
+L 05/09/2022 - 16:38:01: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:38:01: [oo_test.amxx] performance issue. Function oo_init executed more than 26.7ms.
+L 05/09/2022 - 16:38:01: [oo.amxx] performance issue. Function plugin_precache executed more than 28.3ms.
+L 05/09/2022 - 16:38:01: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.1ms.
+L 05/09/2022 - 16:38:01: [oo.amxx] performance issue. Function native_call executed more than 13.0ms.
+L 05/09/2022 - 16:38:01: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.8ms.
+L 05/09/2022 - 16:38:01: [oo.amxx] performance issue. Function native_new executed more than 37.3ms.
+L 05/09/2022 - 16:38:01: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 49.5ms.
+L 05/09/2022 - 16:38:01: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 1.6ms.
+L 05/09/2022 - 16:38:01: [oo.amxx] performance issue. Function native_new executed more than 17.4ms.
+L 05/09/2022 - 16:38:01: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 30.4ms.
+L 05/09/2022 - 16:38:05: [oo.amxx] performance issue. Function plugin_init executed more than 46.5ms.
+L 05/09/2022 - 16:38:18: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:38:18: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 1.5ms.
+L 05/09/2022 - 16:38:18: [oo.amxx] performance issue. Function native_new executed more than 4.3ms.
+L 05/09/2022 - 16:38:18: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 15.6ms.
+L 05/09/2022 - 16:38:18: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 1.8ms.
+L 05/09/2022 - 16:38:18: [oo.amxx] performance issue. Function native_new executed more than 11.7ms.
+L 05/09/2022 - 16:38:18: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 24.0ms.
+L 05/09/2022 - 16:38:18: [oo.amxx] performance issue. Function plugin_init executed more than 49.5ms.
+L 05/09/2022 - 16:51:48: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:51:49: [oo.amxx] performance issue. Function plugin_init executed more than 37.8ms.
+L 05/09/2022 - 16:52:17: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:52:17: [oo.amxx] performance issue. Function plugin_precache executed more than 1.0ms.
+L 05/09/2022 - 16:52:17: [oo.amxx] performance issue. Function plugin_init executed more than 38.9ms.
+L 05/09/2022 - 16:53:00: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:53:00: [oo.amxx] performance issue. Function plugin_init executed more than 41.7ms.
+L 05/09/2022 - 16:53:06: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 16:53:06: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.1ms.
+L 05/09/2022 - 16:53:06: [oo.amxx] performance issue. Function native_new executed more than 2.3ms.
+L 05/09/2022 - 16:53:06: [oo_test.amxx] performance issue. Function oo_init executed more than 13.8ms.
+L 05/09/2022 - 16:53:06: [oo.amxx] performance issue. Function plugin_precache executed more than 25.5ms.
+L 05/09/2022 - 16:53:07: [oo.amxx] performance issue. Function plugin_init executed more than 47.7ms.
+L 05/09/2022 - 16:53:07: [ctg_Player.amxx] performance issue. Function plugin_init executed more than 1.2ms.
+L 05/09/2022 - 17:11:06: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 17:11:21: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_siege
+L 05/09/2022 - 17:13:15: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:13:15: [oo.amxx] performance issue. Function plugin_init executed more than 57.4ms.
+L 05/09/2022 - 17:19:21: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:19:21: [oo.amxx] performance issue. Function plugin_precache executed more than 1.1ms.
+L 05/09/2022 - 17:19:21: [oo.amxx] performance issue. Function plugin_init executed more than 35.9ms.
+L 05/09/2022 - 17:19:31: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:19:32: [oo.amxx] performance issue. Function plugin_init executed more than 36.6ms.
+L 05/09/2022 - 17:19:32: [hsjai.amxx] performance issue. Function plugin_init executed more than 20.6ms.
+L 05/09/2022 - 17:19:54: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:19:54: [oo.amxx] performance issue. Function plugin_init executed more than 36.2ms.
+L 05/09/2022 - 17:19:54: [hsjai.amxx] performance issue. Function plugin_init executed more than 16.9ms.
+L 05/09/2022 - 17:20:07: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:20:08: [oo.amxx] performance issue. Function plugin_init executed more than 42.5ms.
+L 05/09/2022 - 17:20:08: [hsjai.amxx] performance issue. Function plugin_init executed more than 16.6ms.
+L 05/09/2022 - 17:20:16: -------- Mapchange to cs_siege --------
+L 05/09/2022 - 17:20:16: [oo.amxx] performance issue. Function plugin_init executed more than 36.2ms.
+L 05/09/2022 - 17:20:16: [hsjai.amxx] performance issue. Function plugin_init executed more than 15.6ms.
+L 05/09/2022 - 17:38:16: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 17:38:31: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_office
+L 05/09/2022 - 17:40:25: -------- Mapchange to cs_office --------
+L 05/09/2022 - 17:40:25: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.1ms.
+L 05/09/2022 - 17:40:25: [oo.amxx] performance issue. Function native_new executed more than 3.4ms.
+L 05/09/2022 - 17:40:25: [oo_test.amxx] performance issue. Function oo_init executed more than 13.4ms.
+L 05/09/2022 - 17:40:25: [oo.amxx] performance issue. Function plugin_precache executed more than 24.9ms.
+L 05/09/2022 - 17:40:25: [oo.amxx] performance issue. Function plugin_init executed more than 39.2ms.
+L 05/09/2022 - 17:40:25: [hsjai.amxx] performance issue. Function plugin_init executed more than 16.5ms.
+L 05/09/2022 - 21:32:43: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:32:43: [oo.amxx] performance issue. Function plugin_init executed more than 39.6ms.
+L 05/09/2022 - 21:32:43: [hsjai.amxx] performance issue. Function plugin_init executed more than 17.3ms.
+L 05/09/2022 - 21:36:20: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:36:20: [oo.amxx] performance issue. Function plugin_precache executed more than 1.0ms.
+L 05/09/2022 - 21:36:21: [oo.amxx] performance issue. Function plugin_init executed more than 37.6ms.
+L 05/09/2022 - 21:36:21: [hsjai.amxx] performance issue. Function plugin_init executed more than 18.7ms.
+L 05/09/2022 - 21:36:52: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:36:52: [oo.amxx] performance issue. Function native_new executed more than 1.0ms.
+L 05/09/2022 - 21:36:52: [oo_test.amxx] performance issue. Function oo_init executed more than 2.3ms.
+L 05/09/2022 - 21:36:52: [oo.amxx] performance issue. Function plugin_precache executed more than 13.8ms.
+L 05/09/2022 - 21:36:53: [oo.amxx] performance issue. Function plugin_init executed more than 34.6ms.
+L 05/09/2022 - 21:36:53: [hsjai.amxx] performance issue. Function plugin_init executed more than 15.3ms.
+L 05/09/2022 - 21:37:21: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:37:21: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.1ms.
+L 05/09/2022 - 21:37:21: [oo.amxx] performance issue. Function native_new executed more than 2.4ms.
+L 05/09/2022 - 21:37:21: [oo_test.amxx] performance issue. Function oo_init executed more than 13.9ms.
+L 05/09/2022 - 21:37:21: [oo.amxx] performance issue. Function plugin_precache executed more than 25.2ms.
+L 05/09/2022 - 21:37:21: [oo.amxx] performance issue. Function plugin_init executed more than 37.2ms.
+L 05/09/2022 - 21:37:21: [hsjai.amxx] performance issue. Function plugin_init executed more than 15.8ms.
+L 05/09/2022 - 21:38:14: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:38:14: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.0ms.
+L 05/09/2022 - 21:38:14: [oo.amxx] performance issue. Function native_new executed more than 2.2ms.
+L 05/09/2022 - 21:38:14: [oo_test.amxx] performance issue. Function oo_init executed more than 14.2ms.
+L 05/09/2022 - 21:38:14: [oo.amxx] performance issue. Function plugin_precache executed more than 25.9ms.
+L 05/09/2022 - 21:38:15: [oo.amxx] performance issue. Function plugin_init executed more than 45.0ms.
+L 05/09/2022 - 21:38:15: [hsjai.amxx] performance issue. Function plugin_init executed more than 17.6ms.
+L 05/09/2022 - 21:40:43: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:40:43: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 1.5ms.
+L 05/09/2022 - 21:40:43: [oo.amxx] performance issue. Function native_new executed more than 2.7ms.
+L 05/09/2022 - 21:40:43: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 14.7ms.
+L 05/09/2022 - 21:40:43: [oo.amxx] performance issue. Function plugin_init executed more than 44.5ms.
+L 05/09/2022 - 21:40:43: [hsjai.amxx] performance issue. Function plugin_init executed more than 15.1ms.
+L 05/09/2022 - 21:41:22: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:41:22: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 1.6ms.
+L 05/09/2022 - 21:41:22: [oo.amxx] performance issue. Function native_new executed more than 2.6ms.
+L 05/09/2022 - 21:41:22: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 14.5ms.
+L 05/09/2022 - 21:41:22: [oo.amxx] performance issue. Function plugin_init executed more than 41.4ms.
+L 05/09/2022 - 21:41:22: [hsjai.amxx] performance issue. Function plugin_init executed more than 19.0ms.
+L 05/09/2022 - 21:41:49: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:41:49: [oo.amxx] performance issue. Function plugin_precache executed more than 1.1ms.
+L 05/09/2022 - 21:41:49: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 22.0ms.
+L 05/09/2022 - 21:41:49: [oo.amxx] performance issue. Function native_call executed more than 23.3ms.
+L 05/09/2022 - 21:41:49: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 35.7ms.
+L 05/09/2022 - 21:41:49: [oo.amxx] performance issue. Function native_new executed more than 48.6ms.
+L 05/09/2022 - 21:41:49: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 60.9ms.
+L 05/09/2022 - 21:41:50: [oo.amxx] performance issue. Function plugin_init executed more than 45.6ms.
+L 05/09/2022 - 21:41:50: [hsjai.amxx] performance issue. Function plugin_init executed more than 21.4ms.
+L 05/09/2022 - 21:42:38: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:42:38: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 8.3ms.
+L 05/09/2022 - 21:42:38: [oo.amxx] performance issue. Function native_call executed more than 10.5ms.
+L 05/09/2022 - 21:42:38: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 22.2ms.
+L 05/09/2022 - 21:42:38: [oo.amxx] performance issue. Function native_new executed more than 34.1ms.
+L 05/09/2022 - 21:42:38: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 45.8ms.
+L 05/09/2022 - 21:42:38: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 8.9ms.
+L 05/09/2022 - 21:42:38: [oo.amxx] performance issue. Function native_call executed more than 11.0ms.
+L 05/09/2022 - 21:42:38: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 24.1ms.
+L 05/09/2022 - 21:42:38: [oo.amxx] performance issue. Function native_new executed more than 36.3ms.
+L 05/09/2022 - 21:42:38: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 47.7ms.
+L 05/09/2022 - 21:42:39: [oo.amxx] performance issue. Function plugin_init executed more than 45.5ms.
+L 05/09/2022 - 21:42:39: [hsjai.amxx] performance issue. Function plugin_init executed more than 18.3ms.
+L 05/09/2022 - 21:43:59: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetProperties executed more than 3.8ms.
+L 05/09/2022 - 21:43:59: [oo.amxx] performance issue. Function native_call executed more than 4.8ms.
+L 05/09/2022 - 21:43:59: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 19.2ms.
+L 05/09/2022 - 21:43:59: [oo.amxx] performance issue. Function native_call executed more than 32.1ms.
+L 05/09/2022 - 21:43:59: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 45.6ms.
+L 05/09/2022 - 21:46:24: [ctg_Player.amxx] performance issue. Function client_disconnected executed more than 1.7ms.
+L 05/09/2022 - 21:46:24: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:46:24: [oo.amxx] performance issue. Function plugin_precache executed more than 1.1ms.
+L 05/09/2022 - 21:46:24: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.2ms.
+L 05/09/2022 - 21:46:24: [oo.amxx] performance issue. Function native_call executed more than 13.7ms.
+L 05/09/2022 - 21:46:24: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 29.1ms.
+L 05/09/2022 - 21:46:24: [oo.amxx] performance issue. Function native_new executed more than 42.2ms.
+L 05/09/2022 - 21:46:24: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 57.2ms.
+L 05/09/2022 - 21:46:24: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.3ms.
+L 05/09/2022 - 21:46:24: [oo.amxx] performance issue. Function native_call executed more than 15.2ms.
+L 05/09/2022 - 21:46:24: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.1ms.
+L 05/09/2022 - 21:46:24: [oo.amxx] performance issue. Function native_new executed more than 45.2ms.
+L 05/09/2022 - 21:46:24: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 56.7ms.
+L 05/09/2022 - 21:46:25: [oo.amxx] performance issue. Function plugin_init executed more than 48.6ms.
+L 05/09/2022 - 21:46:25: [hsjai.amxx] performance issue. Function plugin_init executed more than 22.4ms.
+L 05/09/2022 - 21:46:25: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.8ms.
+L 05/09/2022 - 21:57:42: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 21:57:42: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 11.3ms.
+L 05/09/2022 - 21:57:42: [oo.amxx] performance issue. Function native_call executed more than 12.1ms.
+L 05/09/2022 - 21:57:42: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.6ms.
+L 05/09/2022 - 21:57:42: [oo.amxx] performance issue. Function native_new executed more than 38.6ms.
+L 05/09/2022 - 21:57:42: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 50.7ms.
+L 05/09/2022 - 21:57:42: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 8.2ms.
+L 05/09/2022 - 21:57:42: [oo.amxx] performance issue. Function native_call executed more than 12.0ms.
+L 05/09/2022 - 21:57:42: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.9ms.
+L 05/09/2022 - 21:57:42: [oo.amxx] performance issue. Function native_new executed more than 38.7ms.
+L 05/09/2022 - 21:57:42: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 52.1ms.
+L 05/09/2022 - 21:57:42: [oo.amxx] performance issue. Function plugin_init executed more than 65.4ms.
+L 05/09/2022 - 21:57:42: [hsjai.amxx] performance issue. Function plugin_init executed more than 22.4ms.
+L 05/09/2022 - 21:57:43: [ctg_Player.amxx] performance issue. Function client_connect executed more than 1.6ms.
+L 05/09/2022 - 22:00:04: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetWeaponModel executed more than 5.0ms.
+L 05/09/2022 - 22:00:04: [oo.amxx] performance issue. Function native_call executed more than 6.1ms.
+L 05/09/2022 - 22:00:04: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 20.2ms.
+L 05/09/2022 - 22:00:04: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetProperties executed more than 34.7ms.
+L 05/09/2022 - 22:00:04: [oo.amxx] performance issue. Function native_call executed more than 50.0ms.
+L 05/09/2022 - 22:00:04: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 64.7ms.
+L 05/09/2022 - 22:00:04: [oo.amxx] performance issue. Function native_call executed more than 77.2ms.
+L 05/09/2022 - 22:00:05: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 92.3ms.
+L 05/09/2022 - 22:00:21: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetWeaponModel executed more than 2.4ms.
+L 05/09/2022 - 22:00:21: [oo.amxx] performance issue. Function native_call executed more than 3.8ms.
+L 05/09/2022 - 22:00:21: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 18.5ms.
+L 05/09/2022 - 22:12:21: -------- Mapchange to de_dust2 --------
+L 05/09/2022 - 22:12:21: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.2ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function native_new executed more than 2.3ms.
+L 05/09/2022 - 22:12:21: [oo_test.amxx] performance issue. Function oo_init executed more than 15.8ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function plugin_precache executed more than 29.6ms.
+L 05/09/2022 - 22:12:21: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.2ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function native_call executed more than 11.7ms.
+L 05/09/2022 - 22:12:21: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.6ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function native_new executed more than 38.1ms.
+L 05/09/2022 - 22:12:21: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 50.9ms.
+L 05/09/2022 - 22:12:21: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.5ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function native_call executed more than 11.0ms.
+L 05/09/2022 - 22:12:21: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.0ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function native_new executed more than 38.0ms.
+L 05/09/2022 - 22:12:21: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 51.2ms.
+L 05/09/2022 - 22:12:21: [oo.amxx] performance issue. Function plugin_init executed more than 56.3ms.
+L 05/09/2022 - 22:12:21: [hsjai.amxx] performance issue. Function plugin_init executed more than 17.7ms.
+L 05/09/2022 - 22:12:30: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetWeaponModel executed more than 2.6ms.
+L 05/09/2022 - 22:12:30: [oo.amxx] performance issue. Function native_call executed more than 3.9ms.
+L 05/09/2022 - 22:12:30: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 18.5ms.
+L 05/09/2022 - 22:12:30: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetProperties executed more than 32.7ms.
+L 05/09/2022 - 22:12:30: [oo.amxx] performance issue. Function native_call executed more than 46.2ms.
+L 05/09/2022 - 22:12:30: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 61.8ms.
+L 05/09/2022 - 22:12:30: [oo.amxx] performance issue. Function native_call executed more than 74.7ms.
+L 05/09/2022 - 22:12:30: [ctg_Player.amxx] performance issue. Function CmdZombie executed more than 90.0ms.
+L 05/09/2022 - 22:12:40: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetWeaponModel executed more than 2.3ms.
+L 05/09/2022 - 22:12:40: [oo.amxx] performance issue. Function native_call executed more than 3.7ms.
+L 05/09/2022 - 22:12:40: [ctg_Player.amxx] performance issue. Function OnItemDeploy_Post executed more than 19.5ms.
+L 05/09/2022 - 22:12:40: [ctg_PlayerClass.amxx] performance issue. Function PlayerClass@SetProperties executed more than 34.4ms.
+L 05/09/2022 - 22:12:40: [oo.amxx] performance issue. Function native_call executed more than 49.6ms.
+L 05/09/2022 - 22:12:40: [ctg_Player.amxx] performance issue. Function Player@ChangeClass executed more than 64.5ms.
+L 05/09/2022 - 22:12:40: [oo.amxx] performance issue. Function native_call executed more than 77.9ms.
+L 05/09/2022 - 22:12:40: [ctg_Player.amxx] performance issue. Function CmdHuman executed more than 93.4ms.
+L 05/09/2022 - 22:30:21: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 22:30:36: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_office
+L 05/09/2022 - 22:32:30: -------- Mapchange to cs_office --------
+L 05/09/2022 - 22:32:30: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.7ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function native_new executed more than 3.0ms.
+L 05/09/2022 - 22:32:30: [oo_test.amxx] performance issue. Function oo_init executed more than 18.4ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function plugin_precache executed more than 31.5ms.
+L 05/09/2022 - 22:32:30: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 14.7ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function native_call executed more than 16.1ms.
+L 05/09/2022 - 22:32:30: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 31.5ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function native_new executed more than 43.9ms.
+L 05/09/2022 - 22:32:30: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 57.7ms.
+L 05/09/2022 - 22:32:30: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.4ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function native_call executed more than 12.5ms.
+L 05/09/2022 - 22:32:30: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 27.2ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function native_new executed more than 39.9ms.
+L 05/09/2022 - 22:32:30: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 52.6ms.
+L 05/09/2022 - 22:32:30: [oo.amxx] performance issue. Function plugin_init executed more than 47.0ms.
+L 05/09/2022 - 22:32:30: [hsjai.amxx] performance issue. Function plugin_init executed more than 14.8ms.
+L 05/09/2022 - 22:50:30: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 22:50:45: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_italy
+L 05/09/2022 - 22:52:39: -------- Mapchange to cs_italy --------
+L 05/09/2022 - 22:52:39: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.2ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function native_new executed more than 2.4ms.
+L 05/09/2022 - 22:52:39: [oo_test.amxx] performance issue. Function oo_init executed more than 19.4ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function plugin_precache executed more than 32.5ms.
+L 05/09/2022 - 22:52:39: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 13.9ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function native_call executed more than 15.3ms.
+L 05/09/2022 - 22:52:39: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 31.9ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function native_new executed more than 46.4ms.
+L 05/09/2022 - 22:52:39: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 59.1ms.
+L 05/09/2022 - 22:52:39: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 11.5ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function native_call executed more than 13.3ms.
+L 05/09/2022 - 22:52:39: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.1ms.
+L 05/09/2022 - 22:52:39: [oo.amxx] performance issue. Function native_new executed more than 39.1ms.
+L 05/09/2022 - 22:52:39: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 52.5ms.
+L 05/09/2022 - 22:52:40: [oo.amxx] performance issue. Function plugin_init executed more than 50.6ms.
+L 05/09/2022 - 22:52:40: [hsjai.amxx] performance issue. Function plugin_init executed more than 17.0ms.
+L 05/09/2022 - 23:10:39: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 23:10:54: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_backalley
+L 05/09/2022 - 23:12:48: -------- Mapchange to cs_backalley --------
+L 05/09/2022 - 23:12:48: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 1.7ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function native_new executed more than 3.1ms.
+L 05/09/2022 - 23:12:48: [oo_test.amxx] performance issue. Function oo_init executed more than 16.8ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function plugin_precache executed more than 29.8ms.
+L 05/09/2022 - 23:12:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 12.2ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function native_call executed more than 13.7ms.
+L 05/09/2022 - 23:12:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 28.2ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function native_new executed more than 41.6ms.
+L 05/09/2022 - 23:12:48: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 56.1ms.
+L 05/09/2022 - 23:12:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.6ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function native_call executed more than 14.4ms.
+L 05/09/2022 - 23:12:48: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.2ms.
+L 05/09/2022 - 23:12:48: [oo.amxx] performance issue. Function native_new executed more than 44.9ms.
+L 05/09/2022 - 23:12:48: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 60.4ms.
+L 05/09/2022 - 23:12:49: [oo.amxx] performance issue. Function plugin_init executed more than 55.0ms.
+L 05/09/2022 - 23:12:49: [hsjai.amxx] performance issue. Function plugin_init executed more than 17.4ms.
+L 05/09/2022 - 23:30:48: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 23:31:03: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_militia
+L 05/09/2022 - 23:32:57: -------- Mapchange to cs_militia --------
+L 05/09/2022 - 23:32:57: [oo_test.amxx] performance issue. Function Test@Ctor executed more than 2.1ms.
+L 05/09/2022 - 23:32:57: [oo.amxx] performance issue. Function native_new executed more than 3.4ms.
+L 05/09/2022 - 23:32:57: [oo_test.amxx] performance issue. Function oo_init executed more than 17.0ms.
+L 05/09/2022 - 23:32:57: [oo.amxx] performance issue. Function plugin_precache executed more than 31.5ms.
+L 05/09/2022 - 23:32:57: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 14.7ms.
+L 05/09/2022 - 23:32:57: [oo.amxx] performance issue. Function native_call executed more than 16.2ms.
+L 05/09/2022 - 23:32:57: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.0ms.
+L 05/09/2022 - 23:32:57: [oo.amxx] performance issue. Function native_new executed more than 42.8ms.
+L 05/09/2022 - 23:32:57: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 55.7ms.
+L 05/09/2022 - 23:32:58: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.6ms.
+L 05/09/2022 - 23:32:58: [oo.amxx] performance issue. Function native_call executed more than 12.2ms.
+L 05/09/2022 - 23:32:58: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 29.0ms.
+L 05/09/2022 - 23:32:58: [oo.amxx] performance issue. Function native_new executed more than 42.3ms.
+L 05/09/2022 - 23:32:58: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 56.7ms.
+L 05/09/2022 - 23:32:58: [oo.amxx] performance issue. Function plugin_init executed more than 48.6ms.
+L 05/09/2022 - 23:32:58: [hsjai.amxx] performance issue. Function plugin_init executed more than 24.4ms.
+L 05/09/2022 - 23:50:57: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 05/09/2022 - 23:51:12: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_train
+L 05/09/2022 - 23:53:07: -------- Mapchange to de_train --------
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function plugin_precache executed more than 1.0ms.
+L 05/09/2022 - 23:53:07: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.0ms.
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function native_call executed more than 11.4ms.
+L 05/09/2022 - 23:53:07: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.7ms.
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function native_new executed more than 38.2ms.
+L 05/09/2022 - 23:53:07: [ctg_Human.amxx] performance issue. Function plugin_precache executed more than 51.7ms.
+L 05/09/2022 - 23:53:07: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.1ms.
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function native_call executed more than 14.3ms.
+L 05/09/2022 - 23:53:07: [ctg_PlayerClassInfo.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 28.0ms.
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function native_new executed more than 42.0ms.
+L 05/09/2022 - 23:53:07: [ctg_Zombie.amxx] performance issue. Function plugin_precache executed more than 58.8ms.
+L 05/09/2022 - 23:53:07: [oo.amxx] performance issue. Function plugin_init executed more than 48.3ms.
+L 05/09/2022 - 23:53:07: [hsjai.amxx] performance issue. Function plugin_init executed more than 16.5ms.

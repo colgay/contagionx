@@ -1,0 +1,111 @@
+L 04/05/2022 - 02:08:20: Start of error session.
+L 04/05/2022 - 02:08:20: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 02:08:20: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 02:08:20: [AMXX] Run time error 25 (plugin "") - debug not enabled!
+L 04/05/2022 - 02:08:20: [AMXX] To enable debug mode, add "debug" after the plugin name in plugins.ini (without quotes).
+L 04/05/2022 - 11:02:14: Start of error session.
+L 04/05/2022 - 11:02:14: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 11:02:14: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 11:02:14: [AMXX] Displaying debug trace (plugin "oo_test.amxx", version "")
+L 04/05/2022 - 11:02:14: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 11:02:14: [AMXX]    [0] oo_test.sma::Test@TestMsg (line 28)
+L 04/05/2022 - 11:06:51: Start of error session.
+L 04/05/2022 - 11:06:51: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 11:06:51: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 11:06:51: [AMXX] Displaying debug trace (plugin "oo_test.amxx", version "")
+L 04/05/2022 - 11:06:51: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 11:06:51: [AMXX]    [0] oo_test.sma::Test@TestMsg (line 28)
+L 04/05/2022 - 11:07:26: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 11:07:26: [AMXX] Displaying debug trace (plugin "oo_test.amxx", version "")
+L 04/05/2022 - 11:07:26: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 11:07:26: [AMXX]    [0] oo_test.sma::Test@TestMsg (line 28)
+L 04/05/2022 - 11:07:45: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 11:07:45: [AMXX] Displaying debug trace (plugin "oo_test.amxx", version "")
+L 04/05/2022 - 11:07:45: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 11:07:45: [AMXX]    [0] oo_test.sma::Test@TestMsg (line 28)
+L 04/05/2022 - 13:37:34: Start of error session.
+L 04/05/2022 - 13:37:34: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 13:37:34: [OO] Call of Test@TestMsg: No such method!
+L 04/05/2022 - 13:37:34: [AMXX] Displaying debug trace (plugin "oo_test2.amxx", version "")
+L 04/05/2022 - 13:37:34: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 13:37:34: [AMXX]    [0] oo_test2.sma::CmdTestOO (line 24)
+L 04/05/2022 - 18:12:29: Start of error session.
+L 04/05/2022 - 18:12:29: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 18:12:29: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 18:12:29: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 18:12:29: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 18:12:29: [AMXX]    [0] contagion.sma::Player@Ctor (line 428)
+L 04/05/2022 - 18:13:33: Start of error session.
+L 04/05/2022 - 18:13:33: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 18:13:33: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 18:13:33: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 18:13:33: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 18:13:33: [AMXX]    [0] contagion.sma::Player@Ctor (line 428)
+L 04/05/2022 - 19:51:15: Start of error session.
+L 04/05/2022 - 19:51:15: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 19:51:15: [OO] Class (zombie) not found
+L 04/05/2022 - 19:51:15: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 19:51:15: [AMXX] Run time error 10: native error (native "oo_new")
+L 04/05/2022 - 19:51:15: [AMXX]    [0] contagion.sma::Player@ChangePlayerClass (line 471)
+L 04/05/2022 - 20:00:47: Start of error session.
+L 04/05/2022 - 20:00:47: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:00:47: [CSTRIKE] Model can not be empty
+L 04/05/2022 - 20:00:47: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:00:48: [AMXX] Run time error 10: native error (native "cs_set_user_model")
+L 04/05/2022 - 20:00:48: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 346)
+L 04/05/2022 - 20:07:33: Start of error session.
+L 04/05/2022 - 20:07:33: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:07:33: [CSTRIKE] Model can not be empty
+L 04/05/2022 - 20:07:33: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:07:33: [AMXX] Run time error 10: native error (native "cs_set_user_model")
+L 04/05/2022 - 20:07:33: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 346)
+L 04/05/2022 - 20:09:38: Start of error session.
+L 04/05/2022 - 20:09:38: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:09:38: [CSTRIKE] Model can not be empty
+L 04/05/2022 - 20:09:38: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:09:38: [AMXX] Run time error 10: native error (native "cs_set_user_model")
+L 04/05/2022 - 20:09:38: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 346)
+L 04/05/2022 - 20:12:01: Start of error session.
+L 04/05/2022 - 20:12:01: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:12:01: [CSTRIKE] Model can not be empty
+L 04/05/2022 - 20:12:01: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:12:01: [AMXX] Run time error 10: native error (native "cs_set_user_model")
+L 04/05/2022 - 20:12:01: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 348)
+L 04/05/2022 - 20:14:13: Start of error session.
+L 04/05/2022 - 20:14:13: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:14:13: String formatted incorrectly - parameter 2 (total 1)
+L 04/05/2022 - 20:14:13: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:14:13: [AMXX] Run time error 25: parameter error 
+L 04/05/2022 - 20:14:13: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 331)
+L 04/05/2022 - 20:14:44: Start of error session.
+L 04/05/2022 - 20:14:44: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:14:44: [CSTRIKE] Model can not be empty
+L 04/05/2022 - 20:14:44: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:14:44: [AMXX] Run time error 10: native error (native "cs_set_user_model")
+L 04/05/2022 - 20:14:44: [AMXX]    [0] contagion.sma::PlayerClass@SetPlayerProps (line 350)
+L 04/05/2022 - 20:17:04: Start of error session.
+L 04/05/2022 - 20:17:04: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:17:04: [OO] Object (-1572110051) not found
+L 04/05/2022 - 20:17:04: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:17:04: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 20:17:04: [AMXX]    [0] contagion.sma::OnPlayerResetMaxSpeed_Post (line 588)
+L 04/05/2022 - 20:20:14: Start of error session.
+L 04/05/2022 - 20:20:14: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:20:14: [OO] Object (-1664530516) not found
+L 04/05/2022 - 20:20:14: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:20:14: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 20:20:14: [AMXX]    [0] contagion.sma::OnPlayerResetMaxSpeed_Post (line 589)
+L 04/05/2022 - 20:20:47: [OO] Object (-948516227) not found
+L 04/05/2022 - 20:20:47: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:20:47: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 20:20:47: [AMXX]    [0] contagion.sma::OnPlayerResetMaxSpeed_Post (line 589)
+L 04/05/2022 - 20:20:48: [OO] Object (927643908) not found
+L 04/05/2022 - 20:20:48: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:20:48: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 20:20:48: [AMXX]    [0] contagion.sma::OnPlayerResetMaxSpeed_Post (line 589)
+L 04/05/2022 - 20:24:22: Start of error session.
+L 04/05/2022 - 20:24:22: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220405.log")
+L 04/05/2022 - 20:24:22: [OO] Object (74220630) not found
+L 04/05/2022 - 20:24:22: [AMXX] Displaying debug trace (plugin "contagion.amxx", version "0.1")
+L 04/05/2022 - 20:24:22: [AMXX] Run time error 10: native error (native "oo_send")
+L 04/05/2022 - 20:24:22: [AMXX]    [0] contagion.sma::OnPlayerResetMaxSpeed_Post (line 591)

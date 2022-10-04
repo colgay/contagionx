@@ -1,0 +1,5 @@
+L 10/05/2022 - 03:43:36: -------- Mapchange to de_dust2 --------
+L 10/05/2022 - 03:44:15: -------- Mapchange to de_dust2 --------
+L 10/05/2022 - 03:44:45: -------- Mapchange to de_dust2 --------
+L 10/05/2022 - 03:44:45: [AMXX] Plugin "ctg_gamemode_infection.amxx" failed to load: Plugin uses an unknown function (name "ctg_playerclass_is") - check your modules.ini.
+L 10/05/2022 - 03:44:54: [admin.amxx] Login: "spectator`<1><STEAM_0:0:75035875><>" became an admin (account "STEAM_0:0:75035875") (access "abcdefghijklmnopqrstuv") (address "192.168.56.1")

@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "compile and copy",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "compile",
+                "copy to server"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "copy to server",
+            "type": "shell",
+            "command": "xcopy \"${workspaceFolder}\\compiled\\${fileBasenameNoExtension}.amxx\" \"${workspaceFolder}\\..\\plugins\" /Y",
+            "presentation": {
+                "focus": false,
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "${workspaceFolder}/amxxpc.exe",
+            "runOptions": {
+                "instanceLimit": 1
+            },
+            "args": [
+                "${file}",
+                "-i\"${workspaceFolder}/include\"",
+                "-o\"${workspaceFolder}/compiled/${fileBasenameNoExtension}.amxx\"",
+                "-D\"${workspaceFolder}\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": false,
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true,
+                "showReuseMessage": true
+            },
+            "problemMatcher": {
+                "owner": "pawn",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*?)\\(([0-9]*)[- 0-9]*\\) \\: (fatal error|error|warning) [0-9]*\\: (.*)$",
+                    "file": 1,
+                    "location": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
+        }
+    ]
+}

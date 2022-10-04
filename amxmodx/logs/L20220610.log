@@ -1,0 +1,19 @@
+L 06/10/2022 - 00:00:05: [midnight_clean.amxx] server deleted all data
+L 06/10/2022 - 00:00:05: [midnight_clean.amxx] player(1) var reset in game
+L 06/10/2022 - 00:00:05: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 23.1ms.
+L 06/10/2022 - 00:00:13: [midnight_clean.amxx] no data loaded for (STEAM_ID_LAN)
+L 06/10/2022 - 00:00:13: [midnight_clean.amxx] player(1) var reset in game
+L 06/10/2022 - 00:00:13: [midnight_clean.amxx] performance issue. Function CmdLoad executed more than 9.7ms.
+L 06/10/2022 - 00:00:15: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 4.0ms.
+L 06/10/2022 - 00:00:25: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.8ms.
+L 06/10/2022 - 00:00:31: [midnight_clean.amxx] no data loaded for (STEAM_ID_LAN)
+L 06/10/2022 - 00:00:31: [midnight_clean.amxx] player(1) var reset in game
+L 06/10/2022 - 00:00:31: [midnight_clean.amxx] performance issue. Function CmdLoad executed more than 10.2ms.
+L 06/10/2022 - 00:00:35: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 3.8ms.
+L 06/10/2022 - 00:00:45: [midnight_clean.amxx] performance issue. Function CheckAndDelete executed more than 2.7ms.
+L 06/10/2022 - 17:54:57: -------- Mapchange to de_dust2 --------
+L 06/10/2022 - 17:54:57: [test_oo.amxx] performance issue. Function oo_init executed more than 7.7ms.
+L 06/10/2022 - 17:55:04: [test_oo.amxx] performance issue. Function plugin_init executed more than 26.6ms.
+L 06/10/2022 - 17:56:00: -------- Mapchange to de_dust2 --------
+L 06/10/2022 - 17:58:48: -------- Mapchange to de_dust2 --------
+L 06/10/2022 - 18:05:08: -------- Mapchange to de_dust2 --------

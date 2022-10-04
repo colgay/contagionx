@@ -1,0 +1,11 @@
+L 06/17/2022 - 00:15:05: -------- Mapchange to de_dust2 --------
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function oo_init executed more than 2.1ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 21.4ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 23.4ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 33.2ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 38.5ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 77.4ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 79.0ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 90.1ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 97.6ms.
+L 06/17/2022 - 00:15:06: [contagion.amxx] performance issue. Function plugin_precache executed more than 150.6ms.

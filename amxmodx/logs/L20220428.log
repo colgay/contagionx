@@ -1,0 +1,5 @@
+L 04/28/2022 - 11:44:07: -------- Mapchange to de_dust2 --------
+L 04/28/2022 - 11:44:07: [contagion.amxx] performance issue. Function oo_init executed more than 6.7ms.
+L 04/28/2022 - 11:44:08: [ctg_human.amxx] performance issue. Function plugin_precache executed more than 63.6ms.
+L 04/28/2022 - 11:44:08: [ctg_zombie.amxx] performance issue. Function plugin_precache executed more than 89.1ms.
+L 04/28/2022 - 11:44:24: [contagion.amxx] performance issue. Function client_connectex executed more than 2.4ms.

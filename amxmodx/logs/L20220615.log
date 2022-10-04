@@ -1,0 +1,274 @@
+L 06/15/2022 - 14:23:53: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 14:23:54: [contagion.amxx] performance issue. Function oo_init executed more than 27.7ms.
+L 06/15/2022 - 14:23:58: [contagion.amxx] performance issue. Function plugin_init executed more than 22.7ms.
+L 06/15/2022 - 14:25:52: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 14:25:52: [contagion.amxx] performance issue. Function oo_init executed more than 1.7ms.
+L 06/15/2022 - 14:32:29: [contagion.amxx] performance issue. Function Player@Ctor executed more than 2.6ms.
+L 06/15/2022 - 14:32:29: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 4.4ms.
+L 06/15/2022 - 14:32:29: [contagion.amxx] performance issue. Function client_connectex executed more than 13.0ms.
+L 06/15/2022 - 14:43:53: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 14:44:08: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/15/2022 - 14:46:02: -------- Mapchange to de_airstrip --------
+L 06/15/2022 - 14:46:02: [contagion.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/15/2022 - 14:46:10: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 14:46:10: [contagion.amxx] performance issue. Function oo_init executed more than 1.5ms.
+L 06/15/2022 - 14:46:25: [contagion.amxx] performance issue. Function Player@Ctor executed more than 2.8ms.
+L 06/15/2022 - 14:46:25: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 4.9ms.
+L 06/15/2022 - 14:46:25: [contagion.amxx] performance issue. Function client_connectex executed more than 14.3ms.
+L 06/15/2022 - 14:46:32: [contagion.amxx] performance issue. Function Player@Dtor executed more than 2.2ms.
+L 06/15/2022 - 14:46:32: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 4.1ms.
+L 06/15/2022 - 14:46:32: [contagion.amxx] performance issue. Function client_disconnected executed more than 12.5ms.
+L 06/15/2022 - 14:57:30: [contagion.amxx] performance issue. Function Player@Ctor executed more than 3.1ms.
+L 06/15/2022 - 14:57:30: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 5.1ms.
+L 06/15/2022 - 14:57:30: [contagion.amxx] performance issue. Function client_connectex executed more than 14.3ms.
+L 06/15/2022 - 14:57:42: [contagion.amxx] performance issue. Function Player@Dtor executed more than 1.9ms.
+L 06/15/2022 - 14:57:42: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 3.9ms.
+L 06/15/2022 - 14:57:42: [contagion.amxx] performance issue. Function client_disconnected executed more than 15.8ms.
+L 06/15/2022 - 15:04:11: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 15:04:26: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/15/2022 - 15:06:20: -------- Mapchange to de_airstrip --------
+L 06/15/2022 - 15:06:20: [contagion.amxx] performance issue. Function oo_init executed more than 1.6ms.
+L 06/15/2022 - 15:24:20: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 15:24:35: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_havana
+L 06/15/2022 - 15:26:30: -------- Mapchange to cs_havana --------
+L 06/15/2022 - 15:26:30: [contagion.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/15/2022 - 15:44:30: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 15:44:45: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 06/15/2022 - 15:46:39: -------- Mapchange to de_chateau --------
+L 06/15/2022 - 15:46:39: [contagion.amxx] performance issue. Function oo_init executed more than 1.4ms.
+L 06/15/2022 - 16:04:39: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 16:04:54: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 06/15/2022 - 16:06:48: -------- Mapchange to de_aztec --------
+L 06/15/2022 - 16:06:48: [contagion.amxx] performance issue. Function oo_init executed more than 1.6ms.
+L 06/15/2022 - 18:53:16: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 18:53:16: [contagion.amxx] performance issue. Function oo_init executed more than 1.6ms.
+L 06/15/2022 - 20:43:20: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 20:43:20: [contagion.amxx] performance issue. Function oo_init executed more than 1.5ms.
+L 06/15/2022 - 20:43:31: [contagion.amxx] performance issue. Function Player@Ctor executed more than 2.0ms.
+L 06/15/2022 - 20:43:31: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 4.6ms.
+L 06/15/2022 - 20:43:31: [contagion.amxx] performance issue. Function client_connectex executed more than 19.0ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function Player@Dtor executed more than 1.2ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 2.8ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function client_disconnected executed more than 16.0ms.
+L 06/15/2022 - 20:44:29: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function oo_init executed more than 51.2ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 23.2ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 24.9ms.
+L 06/15/2022 - 20:44:29: [contagion.amxx] performance issue. Function plugin_precache executed more than 72.9ms.
+L 06/15/2022 - 20:44:30: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 22.3ms.
+L 06/15/2022 - 20:44:30: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 27.5ms.
+L 06/15/2022 - 20:44:30: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 27.2ms.
+L 06/15/2022 - 20:44:30: [contagion.amxx] performance issue. Function plugin_init executed more than 129.8ms.
+L 06/15/2022 - 20:44:30: [contagion.amxx] performance issue. Function client_connectex executed more than 24.9ms.
+L 06/15/2022 - 20:52:47: [contagion.amxx] performance issue. Function client_disconnected executed more than 25.7ms.
+L 06/15/2022 - 20:52:47: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 20:52:47: [contagion.amxx] performance issue. Function oo_init executed more than 43.9ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 27.0ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 29.9ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function plugin_precache executed more than 77.6ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 25.6ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 85.4ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 39.6ms.
+L 06/15/2022 - 20:52:48: [contagion.amxx] performance issue. Function plugin_init executed more than 216.5ms.
+L 06/15/2022 - 20:52:49: [contagion.amxx] performance issue. Function client_connectex executed more than 27.8ms.
+L 06/15/2022 - 20:54:34: [contagion.amxx] performance issue. Function client_disconnected executed more than 30.4ms.
+L 06/15/2022 - 20:54:34: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 20:54:34: [contagion.amxx] performance issue. Function oo_init executed more than 45.6ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.5ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 28.4ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function plugin_precache executed more than 78.6ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 25.5ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 33.3ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function PlayerClassInfo@CreateCvar executed more than 33.5ms.
+L 06/15/2022 - 20:54:35: [contagion.amxx] performance issue. Function plugin_init executed more than 156.1ms.
+L 06/15/2022 - 20:54:36: [contagion.amxx] performance issue. Function client_connectex executed more than 25.7ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function client_disconnected executed more than 29.6ms.
+L 06/15/2022 - 21:02:09: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function oo_init executed more than 47.8ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.0ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadAssets executed more than 2.8ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 19.5ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 34.7ms.
+L 06/15/2022 - 21:02:09: [contagion.amxx] performance issue. Function plugin_precache executed more than 90.3ms.
+L 06/15/2022 - 21:02:10: [contagion.amxx] performance issue. Function plugin_init executed more than 50.8ms.
+L 06/15/2022 - 21:02:10: [contagion.amxx] performance issue. Function client_connectex executed more than 25.0ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function client_disconnected executed more than 24.7ms.
+L 06/15/2022 - 21:04:56: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function oo_init executed more than 2.1ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 6.9ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 8.7ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 24.2ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 37.7ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 1.7ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 15.5ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.6ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 40.2ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function plugin_precache executed more than 103.7ms.
+L 06/15/2022 - 21:04:56: [contagion.amxx] performance issue. Function plugin_init executed more than 1.0ms.
+L 06/15/2022 - 21:04:57: [contagion.amxx] performance issue. Function Player@Ctor executed more than 3.5ms.
+L 06/15/2022 - 21:04:57: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 8.4ms.
+L 06/15/2022 - 21:04:57: [contagion.amxx] performance issue. Function client_connectex executed more than 25.7ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function Player@Dtor executed more than 2.1ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 3.7ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function client_disconnected executed more than 18.3ms.
+L 06/15/2022 - 21:06:00: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function oo_init executed more than 2.0ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 2.7ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 4.7ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.8ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 14.2ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 28.4ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 42.4ms.
+L 06/15/2022 - 21:06:00: [contagion.amxx] performance issue. Function plugin_precache executed more than 75.8ms.
+L 06/15/2022 - 21:06:01: [contagion.amxx] performance issue. Function Player@Ctor executed more than 1.9ms.
+L 06/15/2022 - 21:06:01: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 3.6ms.
+L 06/15/2022 - 21:06:01: [contagion.amxx] performance issue. Function client_connectex executed more than 18.8ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function Player@Dtor executed more than 1.8ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 3.4ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function client_disconnected executed more than 17.9ms.
+L 06/15/2022 - 21:08:02: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function oo_init executed more than 2.0ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 3.1ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 4.8ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 20.7ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 34.5ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.7ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 11.4ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.8ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 41.7ms.
+L 06/15/2022 - 21:08:02: [contagion.amxx] performance issue. Function plugin_precache executed more than 105.9ms.
+L 06/15/2022 - 21:08:03: [contagion.amxx] performance issue. Function Player@Ctor executed more than 2.2ms.
+L 06/15/2022 - 21:08:03: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 3.8ms.
+L 06/15/2022 - 21:08:03: [contagion.amxx] performance issue. Function client_connectex executed more than 20.4ms.
+L 06/15/2022 - 21:08:33: [contagion.amxx] performance issue. Function PlayerClass@GetPlayerIndex executed more than 27.9ms.
+L 06/15/2022 - 21:08:33: [contagion.amxx] performance issue. Function PlayerClass@SetProperties executed more than 61.3ms.
+L 06/15/2022 - 21:08:33: [contagion.amxx] performance issue. Function Player@ChangeClass executed more than 63.5ms.
+L 06/15/2022 - 21:08:33: [contagion.amxx] performance issue. Function CmdSetPlayerClass executed more than 78.5ms.
+L 06/15/2022 - 21:10:50: [contagion.amxx] performance issue. Function Player@Dtor executed more than 1.2ms.
+L 06/15/2022 - 21:10:50: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 2.8ms.
+L 06/15/2022 - 21:10:50: [contagion.amxx] performance issue. Function client_disconnected executed more than 16.8ms.
+L 06/15/2022 - 21:10:51: -------- Mapchange to de_dust2 --------
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function oo_init executed more than 2.1ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.4ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 12.0ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 27.4ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 41.2ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 11.5ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 13.3ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.9ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 43.4ms.
+L 06/15/2022 - 21:10:51: [contagion.amxx] performance issue. Function plugin_precache executed more than 112.0ms.
+L 06/15/2022 - 21:10:52: [contagion.amxx] performance issue. Function Player@Ctor executed more than 1.9ms.
+L 06/15/2022 - 21:10:52: [contagion.amxx] performance issue. Function PlayerManager@Connect executed more than 4.0ms.
+L 06/15/2022 - 21:10:52: [contagion.amxx] performance issue. Function client_connectex executed more than 18.5ms.
+L 06/15/2022 - 21:11:01: [contagion.amxx] performance issue. Function PlayerClass@SetProperties executed more than 1.6ms.
+L 06/15/2022 - 21:11:01: [contagion.amxx] performance issue. Function Player@ChangeClass executed more than 4.5ms.
+L 06/15/2022 - 21:11:01: [contagion.amxx] performance issue. Function CmdSetPlayerClass executed more than 19.1ms.
+L 06/15/2022 - 21:28:01: [contagion.amxx] performance issue. Function Player@Dtor executed more than 2.0ms.
+L 06/15/2022 - 21:28:01: [contagion.amxx] performance issue. Function PlayerManager@Disconnect executed more than 3.4ms.
+L 06/15/2022 - 21:28:01: [contagion.amxx] performance issue. Function client_disconnected executed more than 17.4ms.
+L 06/15/2022 - 21:28:51: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 21:29:06: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_747
+L 06/15/2022 - 21:31:00: -------- Mapchange to cs_747 --------
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function oo_init executed more than 2.4ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.6ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 11.3ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 25.5ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 38.6ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.1ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 14.3ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.2ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 42.8ms.
+L 06/15/2022 - 21:31:00: [contagion.amxx] performance issue. Function plugin_precache executed more than 108.5ms.
+L 06/15/2022 - 21:49:00: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 21:49:15: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_prodigy
+L 06/15/2022 - 21:51:09: -------- Mapchange to de_prodigy --------
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function oo_init executed more than 2.0ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.2ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 11.6ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.8ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 42.7ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.1ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 13.5ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 28.3ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 41.3ms.
+L 06/15/2022 - 21:51:09: [contagion.amxx] performance issue. Function plugin_precache executed more than 115.1ms.
+L 06/15/2022 - 22:09:09: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 22:09:24: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_assault
+L 06/15/2022 - 22:11:18: -------- Mapchange to cs_assault --------
+L 06/15/2022 - 22:11:18: [contagion.amxx] performance issue. Function oo_init executed more than 2.6ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 13.6ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 15.4ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 33.7ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 49.6ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 13.1ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 17.7ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 37.5ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 55.5ms.
+L 06/15/2022 - 22:11:19: [contagion.amxx] performance issue. Function plugin_precache executed more than 146.2ms.
+L 06/15/2022 - 22:29:19: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 22:29:34: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_office
+L 06/15/2022 - 22:31:28: -------- Mapchange to cs_office --------
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function oo_init executed more than 2.7ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.8ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 13.3ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.4ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 43.8ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.0ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 12.8ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 28.5ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 42.4ms.
+L 06/15/2022 - 22:31:28: [contagion.amxx] performance issue. Function plugin_precache executed more than 118.0ms.
+L 06/15/2022 - 22:49:28: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 22:49:43: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_italy
+L 06/15/2022 - 22:51:37: -------- Mapchange to cs_italy --------
+L 06/15/2022 - 22:51:37: [contagion.amxx] performance issue. Function oo_init executed more than 2.5ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.4ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 11.8ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 33.8ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 50.2ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 12.3ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 16.9ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 40.4ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 55.0ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function plugin_precache executed more than 132.5ms.
+L 06/15/2022 - 22:51:38: [contagion.amxx] performance issue. Function plugin_init executed more than 1.6ms.
+L 06/15/2022 - 23:09:38: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 23:09:53: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_backalley
+L 06/15/2022 - 23:11:47: -------- Mapchange to cs_backalley --------
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function oo_init executed more than 3.1ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 11.4ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 12.8ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.0ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 46.1ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.9ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 17.5ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 31.1ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 51.5ms.
+L 06/15/2022 - 23:11:47: [contagion.amxx] performance issue. Function plugin_precache executed more than 132.4ms.
+L 06/15/2022 - 23:29:47: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 23:30:02: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_militia
+L 06/15/2022 - 23:31:56: -------- Mapchange to cs_militia --------
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function oo_init executed more than 2.4ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.7ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 11.0ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.3ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 40.6ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 11.5ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 14.5ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 30.4ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 44.1ms.
+L 06/15/2022 - 23:31:56: [contagion.amxx] performance issue. Function plugin_precache executed more than 114.8ms.
+L 06/15/2022 - 23:49:56: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/15/2022 - 23:50:11: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_train
+L 06/15/2022 - 23:52:05: -------- Mapchange to de_train --------
+L 06/15/2022 - 23:52:05: [contagion.amxx] performance issue. Function oo_init executed more than 2.0ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 9.9ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function HumanInfo@LoadAssets executed more than 11.3ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 24.6ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function HumanInfo@Ctor executed more than 37.3ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function PlayerClassInfo@LoadJson executed more than 10.5ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function ZombieInfo@LoadAssets executed more than 11.8ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function PlayerClassInfo@Ctor executed more than 26.1ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function ZombieInfo@Ctor executed more than 37.7ms.
+L 06/15/2022 - 23:52:06: [contagion.amxx] performance issue. Function plugin_precache executed more than 99.0ms.

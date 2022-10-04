@@ -1,0 +1,63 @@
+#if defined _oo_const_included
+	#endinput
+#endif
+#define _oo_const_included
+
+#define OO_VERSION "0.1"
+
+#define OO_STRING -1
+#define OO_BYREF 0
+#define OO_CELL 1
+#define OO_FLOAT 1
+#define OO_ARRAY[%0] (%0)
+#define OO_VEC3 3
+#define OO_VEC2 2
+
+enum Object
+{
+	@null = 0
+};
+
+enum Class
+{
+	CNull = -1
+};
+
+enum MethodType
+{
+	OO_METHOD,
+	OO_CTOR,
+	OO_DTOR,
+};
+
+enum _:Class_e
+{
+	Class_Name[64],
+	Class:Class_SuperId,
+	Trie:Class_Vars,
+	Trie:Class_Methods,
+	Class_Dtor[64],
+};
+
+enum _:Variable_e
+{
+	//Var_Name[64],
+	Var_DataType,
+};
+
+enum _:Method_e
+{
+	//Method_Name[64],
+	Method_ActualName[64],
+	MethodType:Method_Type,
+	Method_FuncId,
+	Method_PluginId,
+	Method_Params[64],
+};
+
+enum _:Object_e
+{
+	Class:Object_ClassId,
+	Object:Object_Id,
+	Trie:Object_Data,
+};

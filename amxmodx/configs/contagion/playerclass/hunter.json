@@ -1,0 +1,13 @@
+{
+    "models" : ["zombie_fast"],
+    "v_models" : {
+        "weapon_knife": "models/zombiemod/v_knife_combiner.mdl"
+    },
+	"p_models" : {
+		"weapon_knife": ""
+	},
+    "sounds" : {
+        "weapons/knife_hitwall1.wav": ["weapons/ak47-1.wav"],
+        "weapons/knife_slash1.wav": ["weapons/awp_clipout.wav"]
+    }
+}

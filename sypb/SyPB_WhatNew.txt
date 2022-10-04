@@ -1,0 +1,785 @@
+
+About SyPB/SyPB API/SwNPC
+Pls visit http://ccnhsk-dev.blogspot.com/
+
+SyPB - What New's?
+
+____________
+
+SyPB Beta 1.47 Available 
+(22/12/2016)
+
+Build: 1.47.41669.671
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.45
+
+- Base Ai
+   - Not reload weapon on Camp fixed
+   - Back Enemy Action improve
+   - Avoid Grenade Small improve
+   - Find Enemy (Non-View Cone) Action improve
+   - Check Breakable Action improve
+   - Bot Stuck Action improve
+   - More Base improve
+- Zombie Mode Ai
+   - Zombie Find Enemy Action improve
+   - Zombie will not Avoid the Grenade now
+   - Zombie Attack Duck Action improve
+   - Human Camp Action improve
+   - Human Back Action improve
+- Waypoint
+   - Waypoint Action On Losing Enemy improve
+- CSDM Support
+   - CSDM Game Mode Support
+- New Cvar
+   - 'sypb_quota_save' - Change 'sypb_quota' and save on the new game
+   - 'sypb_entity_check' - Check 'Entity Action'
+   - 'sypb_welcomemsg' - Game Start Show SyPB Version Msg
+- More fixed and improve
+____________
+
+SyPB Beta 1.46 Available 
+(21/10/2016)
+
+Build: 1.46.41468.653
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.45
+
+- Base Ai
+   - Ladder Move improve
+- Zombie Mode Ai
+   - Human Use Weapon problem fixed
+   - BTE ZM4 problem fixed
+- More fixed and improve
+____________
+
+SyPB Beta 1.45 Available 
+(11/8/2016)
+
+Build: 1.45.41259.650
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.45
+
+- Base Ai
+   - Breakable improve
+   - Knife Attack improve
+   - Bot Look At improve
+   - More Base improve
+   - Ladder Move improve
+   - Shootable Thru Obstacle improve
+- Waypoint improve
+   - Door Waypoint improve
+- Zombie Mode Ai
+   - Human Camp Action improve
+- AMXX API
+   - API improve
+- SwNPC Support 
+   - Support SwNPC Beta 1.45
+   - more about SwNPC....
+- Base Core
+   - Move Speed fixed
+   - RunPlayerMove small improve
+   - Bot think improve
+   - Base fixed & improve
+- SgdWP
+   - Save Menu Change
+   - Help Text Change
+- CVAR 'sypb_difficulty' Change
+   - add 'sypb_difficulty -2', Random Skill
+- More fixed and improve
+____________
+
+SyPB Beta 1.44 Available 
+(13/6/2016)
+
+Build: 1.44.41061.642
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.42
+
+- Base Ai
+   - Knife Attack improve
+- Fixed About Cannot Run SyPB 
+____________
+
+SyPB Beta 1.43 Available 
+(31/5/2016)
+
+Build: 1.43.40979.640
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.42
+
+- Base Ai
+   - Attack Ai improve
+   - Base Mode Small improve
+   - Knife Don't Attack fixed
+   - Knife Attack Distance improve
+   - Weapon Reload Checking improve
+- Zombie Mode Ai
+   - Zombie Move to Target improve
+   - Zombie Victim Action improve
+   - Human Attack Ai improve
+   - Human Camp Action improve
+   - Human Find Camp Point improve
+   - Human Attack Mode Move improve
+- Waypoint Improve
+   - Base Waypoint improve
+   - Find Waypoint Ai improve
+- Base Core
+   - Crash Bugs fixed
+   - Bot think improve
+   - Bot Name Problem fixed
+   - Entity Action improve
+   - Add Cvar 'sypb_auto_players'
+   - Remove Cvar 'sypb_autovacate'
+- More fixed and improve
+____________
+
+SyPB Beta 1.42 Available 
+(12/3/2016)
+
+Build: 1.42.40760.619
+== Support SyPB API: 1.42
+== Support SwNPC   : 1.42
+
+- Base Ai
+   - CheckVisibility improve
+   - LookUp Enemy improve
+   - Entity Action improve
+   - Use Gun Action improve
+   - Knife Action improve
+   - Camp Action improve
+   - Escape C4 Action improve
+   - CT help hostages Ai improve
+   - Bot stuck Action small improve
+   - Find Enemy improve
+   - Aim Ai improve
+   - Check Team Damage improve
+   - Sniper Ai improve
+- Zombie Mode Ai
+   - Attack enemy for camp Ai improve
+   - Get Waypoint improve
+   - Zombie Move to Target improve
+   - Human Don't use knife fixed
+   - Human Camp Action improve
+- Waypoint Improve
+   - Find Waypoint Ai improve
+   - Base Waypoint improve
+   - Use door Ai improve
+   - Ladder Ai improve
+   - Fall Ai improve
+   - Breakable Ai improve
+- Base Core
+   - Bot think improve
+   - cvar 'sypb_stopbots' problem fixed
+   - Entity Action improve   
+   - Base function improve
+   - Bugs fixed
+   - Game fps improve
+- AMXX API
+   - Support AMXX API Version 1.42
+   - Add New APIs
+   - Reomve API
+   - API improve
+- SwNPC Support 
+   - Support SwNPC Beta 1.42
+   - more about SwNPC....
+- More fixed and improve
+- Remove 'sypb_entity', need use API to add entity action
+____________
+
+SyPB Beta 1.41 Available 
+(21/10/2015)
+
+Build: 1.41.31468.581
+
+- Base Ai
+   - Find Enemy improve
+   - LookUp Enemy improve
+   - NPC Enemy Action improve
+   - Fall Ai improve
+   - Avoid Entity Action improve
+- Zombie Mode Ai
+   - Zombie Move Target Ai improve
+   - Radio Call Human Camp Action improve
+- Base Core
+   - RunPlayerMove small improve
+   - Core small improve
+   - Bot think improve
+   - more about TraceLine improve
+   - Game fps improve
+   - Base core change about SwNPC
+- SgdWP
+   - SgdWP MSG improve
+   - SgdWP Save Bugs fixed
+- Waypoint 
+   - Find Waypoint improve
+- More fixed and improve
+____________
+
+SyPB Beta 1.40 Available 
+(28/9/2015)
+
+Build: 1.40.31368.550
+
+- Base Ai
+   - Knife Attack improve
+   - Aim Ai improve
+   - Attack NPC Ai improve
+   - Avoid Entity Action improve
+   - Jump Ai small improve
+   - Ladder Ai improve  
+   - Fall Ai improve
+   - Use Door Ai improve
+- Zombie Mode Ai
+   - Move Target Ai improve
+   - Zombie Ai improve
+   - Zombie Find map point improve
+- Breakable Ai
+   - Breakable Ai improve
+   - Small problem fixed 
+- About Waypoint Ai
+   - Bot get waypoint improve
+   - Base about waypoint improve
+   - more about waypoint improve
+- AMXX API
+   - Support 1.40 AMXX API
+   - Add 3 API
+- Base Core
+   - Aim Action improve
+   - RunPlayerMove small improve
+   - more about TraceLine improve
+- SgdWP 
+   - If you change 'mps and .pwf file' name, SgdWP will support the old .pwf 
+- More fixed and improve
+____________
+
+SyPB Beta 1.39 Available 
+(28/8/2015)
+
+Build: 1.39.31275.499
+
+- Base Ai
+   - Aim Ai improve
+   - Gun Attack Ai improve
+   - Fall Ai improve
+   - Stuck Ai small improve
+   - Jump Ai small improve
+- Zombie Mode Ai 
+   - Zombie Ai improve
+   - Move Target Ai improve
+   - Humam Ai small improve
+- Breakable Ai
+   - Breakable Ai change
+   - Fixed old verion bugs
+- More fixed and improve
+
+____________
+
+SyPB Beta 1.38 Available 
+(22/8/2015)
+
+Build: 1.38.31269.487
+
+- Base Ai
+   - Mode support improve
+   - Bot look origin improve
+   - Ladder improve and fixed
+   - Victim Action improve
+   - Pick Weapon Action improve
+   - Attack Action small improve
+   - Fall Action improve 
+   - Stuck Action improve 
+   - Knife Mode Ai improve
+- Zombie Mode Ai
+   - Find enemy improve
+   - Human Camp Ai improve
+   - Zombie Move improve
+   - Zombie Ai improve
+   - Zombie may be not jump fixed 
+   - Zombie Attack small improve 
+   - Human Action improve 
+   - Now can change human camp point on radio (z3) (testing function)
+- Base Mode Ai
+   - Hostage Action improve
+- Breakable Ai
+   - Breakable attack fixed
+   - Improve about find breakable
+- Base Core
+   - Bot think improve
+   - Aim Action improve
+   - Get Head Origin think small improve
+   - Base MSG small improve
+   - Waypoint small improve 
+   - Error fixed
+- AMXX API
+   - Support 1.38 AMXX API
+   - Add 4 new API 
+- SgdWP
+   - Add new msg 
+   - Jump Point improve 
+   - Add CVAR 'sypb_showwp',now can show waypoint only
+
+____________
+
+SyPB Beta 1.37 Available 
+(28/7/2015)
+
+Build: 1.37.31172.456
+
+- Base Ai
+   - Aim origin small improve
+   - Flash Ai samll improve
+   - Pick/Drop weapon action improve
+   - Fall action improve
+   - More small improve
+- Zombie Mode Ai
+   - Zombie fall action improve
+   - Human knife action small improve
+   - Humam Camp Ai small improve
+   - More small improve
+- Base Mode Ai
+   - Aim humanize
+   - Get enemy humanize
+- Breakable Ai improve
+- SgdWP 
+   - Auto mode small change
+   - Jump point improve
+- Base core small cgange
+- More change and improve
+- Add CVAR 'sypb_lockzbot'
+- Logs file change
+
+____________
+
+SyPB Beta 1.36 Available 
+(24/6/2015)
+
+Build: 1.36.31072.432
+
+- Zombie Mode Ai
+   - Human Camp Ai improve
+   - Human Ai improve
+   - Zombie Ai improve
+- Breakable Ai improve
+- Ladder Ai improve
+- Gun Attack improve
+- More fixed and improve
+
+____________
+
+SyPB Beta 1.35 Available 
+(2/6/2015)
+
+Build: 1.35.31049.419
+
+- Zombie Mode Ai
+   - Human Camp Ai improve
+   - No Move Bugs Fixed
+   - Zombie Attack Ai improve
+   - Support ZP5.00
+   - ZP start time improve
+   - Round end bot will not attack
+- Base Mode Ai
+   - Escape from bomb Ai improve
+   - Knife Attack Ai improve
+   - Gun Attack Ai improve
+   - Weapon Data improve
+- Breakable improve
+- Ladder Ai improve
+- SyPB Base improve
+   - Think core improve
+   - Base core improve
+   - New command 'sypb_about' 'sypb_add' 'sypb_add_t' 'sypb_add_ct'
+   - New CVAR 'sypb_difficulty'
+- SyPB API 
+   - Add new API
+   - Support API 1.35
+- New Game Log
+- More fixed and improve
+
+____________
+
+SyPB Beta 1.34 Available 
+(17/4/2015)
+
+Build: 1.34.30865.396
+
+- Zombie Mode Ai 
+   - ZP game start fixed
+   - Zombie Ai improve
+   - Check Target improve
+- Gun Attack Ai improve
+- SyPB Base improve
+   - Base core improve
+   - Bot movement improve
+   - Cannot support server fixed 
+   - new think core
+- SyPB API
+   - API improve
+   - Support API 1.34
+- More fixed and improve
+
+____________
+
+SyPB Beta 1.3.3 Available 
+(2/3/2015)
+
+Build: 1.33.399.373
+
+- Zombie Mode Ai improve
+- Change weapon ai improve
+
+____________
+
+SyPB Beta 1.3.2 Available 
+(22/2/2015)
+
+Build: 1.32.1919.371
+
+- Zombie Mode Ai
+   - Zombie follow Ai improve
+   - Human get Attack target change
+   - Zombie no move bugs fixed
+- SgdWP Waypoint
+   - Could not make jump point Bbugs fixed
+- Knife Attack Ai improve
+- Sniper Skill improve
+- SyPB AMXX API
+   - Fixed Bugs
+- Attack Breakable core improve
+- Base core small change/ improve
+
+____________
+
+SyPB Beta 1.3.1 Available 
+(10/2/2015)
+
+Build: 1.31.38975.361
+
+- SyPB AMXX API
+   - Add new API
+   - Base core change
+   - Support API 1.31
+- Error Fixed 
+   - Fixed 1.3.0 Bugs
+- Knife Attack Ai improve
+   - Bot would attack 'on head' target now
+- Zombie Mode Ai
+   - Human Camp point small improve
+- New Msg
+   - Check API dll file
+- Base core small change/ improve
+
+____________
+
+SyPB Beta 1.3.0 Available 
+(22/1/2015)
+
+Build: 1.30.23507.346
+
+- Zombie Mode Ai 
+   - Human would group to camp in the point
+   - Zombie has good attack mode
+   - more improve
+   - fixed Bugs
+- SyPB AMXX API
+   - Support API: 1.00
+- SgdWP Waypoint
+   - SgdWP improve
+   - Fixed Bugs
+- Check new enemy improve
+   - check enemy origin core change
+   - model size and bone to check mode
+- NPC enemy fixed and improve
+   - more core change for NPC enemy
+- Use grenades Ai
+   - improve grenades Ai
+   - improve DM mode grenades Ai
+   - Zombie bot would use the grenades now
+   - Human bot has new grenades Ai
+- More fixed and improve
+- Base core small change
+
+____________
+
+SyPB Beta 1.2.9 Available 
+(11/8/2013)
+
+- Aim improve
+- AWP skill improve
+- Zombie Ai improve
+- SyPB Base improve
+- Frame improve
+- C4 bugs fixed
+- SgdWP improve
+- More improve and fixed
+
+____________
+
+SyPB Beta 1.2.8 Available 
+(11/7/2013)
+
+- Zombie Ai improve
+- Aim improve
+- Hostage Action improve
+- SyPB Base improve
+
+____________
+
+SyPB Beta 1.2.7 Available 
+(20/6/2013)
+
+- Zombie Ai improve
+- Aim improve
+- SyPB Base improve
+
+____________
+
+SyPB Beta 1.2.6 Available 
+(29/5/2013)
+
+- DM mode improve
+- Zombie Ai improve
+- Aim improve
+- Get Head Origin improve
+- AWP skill improve
+- More improve and fixed
+
+____________
+
+SyPB Beta 1.2.5 Available 
+(1/1/2013)
+
+- Bot Ai improve
+- Aim improve
+
+____________
+
+SyPB Beta 1.2.4 Available 
+(16/9/2012)
+
+- Bot Ai improve
+- SyPB Base improve
+- Fall Ai improve
+- Buy Weapon improve
+- 'general.cfg' change
+
+____________
+
+SyPB Beta 1.2.3 Available 
+(25/8/2012)
+
+- Bot Ai improve
+- Fall Ai improve
+- C4 improve
+- Breakable improve
+- SgdWP improve
+- SyPB Base improve
+
+____________
+
+SyPB Beta 1.2.2 Available 
+(5/8/2012)
+
+- Zombie mode Human improve
+- More Fixed 
+- Add CVAR 'sypb_antiblock' and 'sypb_join_after_player'
+
+____________
+
+SyPB Beta 1.2.1 Available 
+(30/7/2012)
+
+- Ladder improve
+- Breakable improve
+- Aim improve
+- Zombie Ai improve
+
+____________
+
+SyPB Beta 1.2.0 Available 
+(12/7/2012)
+
+- SgdWP improve
+- Name Bugs fixed 
+- Zombie Ai improve
+- Waypoint improve
+- Ladder improve
+- Aim improve
+- Entity Origin fixed
+- Breakable improve
+
+____________
+
+SyPB Beta 1.1.9 Available 
+(2/6/2012)
+
+- Name Bugs fixed
+- Zombie Mode Human improve
+
+____________
+
+SyPB Beta 1.1.8 Available 
+(2/6/2012)
+
+- SgdWP improve
+- Zombie Ai improve
+
+____________
+
+SyPB Beta 1.1.7 Available 
+(29/5/2012)
+
+- Aim Fixed 
+- Zombie Ai improve
+- AWP skill improve
+
+____________
+
+SyPB Beta 1.1.6 Available 
+(26/5/2012)
+
+- Zombie Mode improve
+
+____________
+
+SyPB Beta 1.1.5 Available 
+(23/5/2012)
+
+- Support ZP5.0
+- Zombie Mode improve
+- SyPB Bugs fixed
+- Find Enemy improve
+- DM mode improve
+- C4 improve
+- SyPB improve
+
+____________
+
+SyPB Beta 1.1.4 Available 
+(8/5/2012)
+
+- Support CS:BTE
+- C4 Bugs fixed
+- Zombie Mode improve
+
+____________
+
+SyPB Beta 1.1.3 Available 
+(6/5/2012)
+
+- Nav in door improve
+- Attack Ai improve
+- Find Enemy improve
+- Aim improve
+- C4 Action fixed
+- Knife Attack improve
+
+____________
+
+SyPB Beta 1.1.2 Available 
+(1/5/2012)
+
+- SgdWP improve
+- Bugs fixed
+- Attack NPC improve
+- Breakable improve
+
+____________
+
+SyPB Beta 1.1.1 Available 
+(25/4/2012)
+
+- Aim improve
+- Stuck Action improve
+- Support Zombie Hell mode
+
+____________
+
+SyPB Beta 1.1.0 Available 
+(21/4/2012)
+
+- Bot Action improve
+- Aim improve
+- AWP skill improve
+
+____________
+
+SyPB Beta 1.0.9 Available 
+(17/4/2012)
+
+- Attack NPC improve
+- Find Enemy Ai improve
+- Knife Attack improve
+- SgdWP improve
+- Add Entity Action - Move
+- Improve Entity Action - Miss
+
+____________
+
+SyPB Beta 1.0.8 Available 
+(9/4/2012)
+
+- Add SgdWP mode
+
+____________
+
+SyPB Beta 1.0.7 Available 
+(8/4/2012)
+
+- Reload Ai improve
+- Victim Action improve
+- Add Entity Action - Miss
+
+____________
+
+SyPB Beta 1.0.6 Available 
+(6/4/2012)
+
+- SyPB improve
+- Camp Action improve
+
+____________
+
+SyPB Beta 1.0.5 Available 
+(6/4/2012)
+
+- Fixed SyPB Bugs
+
+____________
+
+SyPB Beta 1.0.4 Available 
+(4/4/2012)
+
+- Attack NPC improve and fixed
+- Stuck fixed
+- Runing Server Bugs fixed
+
+____________
+
+SyPB Beta 1.0.3 Available 
+(3/4/2012)
+
+- C4 Action Bugs fixed
+- Zombie mode improve
+
+____________
+
+SyPB Beta 1.0.2 Available 
+(2/4/2012)
+
+- Fixed Bugs
+- Support Attack NPC
+- Zombie mode improve
+
+____________
+
+SyPB Beta 1.0.1 Available 
+(1/4/2012)
+
+- More Base improve
+- Bot Ai improve
+- Support DM:KD TDM and DM mode
+- Support Zombie mode
+____________
+Base On YaPB

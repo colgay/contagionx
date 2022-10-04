@@ -1,0 +1,22 @@
+{
+    "models" : ["zombie_fast"],
+    "v_models" : {
+        "weapon_knife": "models/zombiemod/v_knife_zombie.mdl"
+    },
+	"p_models" : {
+		"weapon_knife": ""
+	},
+    "sounds" : {
+        "weapons/knife_hitwall1.wav": ["zombie/claw_miss1.wav", "zombie/claw_miss2.wav"],
+        "weapons/knife_slash1.wav": ["zombie/claw_miss1.wav"],
+        "weapons/knife_slash2.wav": ["zombie/claw_miss2.wav"],
+        "weapons/knife_hit1.wav": ["zombie/claw_strike1.wav"],
+        "weapons/knife_hit2.wav": ["zombie/claw_strike2.wav"],
+        "weapons/knife_hit3.wav": ["zombie/claw_strike1.wav"],
+        "weapons/knife_hit4.wav": ["zombie/claw_strike2.wav"],
+        "weapons/knife_stab.wav": ["zombie/claw_strike3.wav"],
+        "player/bhit_flesh-1.wav": ["zombie/zo_pain1.wav"],
+        "player/bhit_flesh-2.wav": ["zombie/zo_pain2.wav"],
+        "player/bhit_flesh-3.wav": ["zombie/zo_pain1.wav", "zombie/zo_pain2.wav"]
+    }
+}

@@ -1,0 +1,6 @@
+L 05/04/2022 - 22:17:37: Start of error session.
+L 05/04/2022 - 22:17:37: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220504.log")
+L 05/04/2022 - 22:17:37: String formatted incorrectly - parameter 2 (total 1)
+L 05/04/2022 - 22:17:37: [AMXX] Displaying debug trace (plugin "hahajai.amxx", version "unknown")
+L 05/04/2022 - 22:17:37: [AMXX] Run time error 25: parameter error 
+L 05/04/2022 - 22:17:37: [AMXX]    [0] hahajai.sma::plugin_init (line 24)

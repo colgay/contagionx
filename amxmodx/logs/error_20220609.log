@@ -1,0 +1,7 @@
+L 06/09/2022 - 00:00:08: Start of error session.
+L 06/09/2022 - 00:00:08: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220609.log")
+L 06/09/2022 - 00:00:08: String formatted incorrectly - parameter 2 (total 1)
+L 06/09/2022 - 00:00:08: [AMXX] Displaying debug trace (plugin "midnight_clean.amxx", version "unknown")
+L 06/09/2022 - 00:00:08: [AMXX] Run time error 25: parameter error 
+L 06/09/2022 - 00:00:08: [AMXX]    [0] midnight_clean.sma::LoadData (line 103)
+L 06/09/2022 - 00:00:08: [AMXX]    [1] midnight_clean.sma::CmdLoad (line 81)
