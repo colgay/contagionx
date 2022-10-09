@@ -76,7 +76,7 @@
 
 /**
  * Function to be called on Back and Next (param1 = string)
- * public function(id, status, menu); where status is either MENU_BACK or MENU_MORE
+ * public function(id, status); where status is either MENU_BACK or MENU_MORE
  * Pass NULL_STRING to disable the callback 
  */
 #define MPROP_PAGE_CALLBACK	11	
@@ -98,45 +98,44 @@
 /** @endsection */
 
 /**
- * Creates a new menu object.
+ * @brief Creates a new menu object.
  *
- * @note The handler function should be prototyped as:
+ * The handler function should be prototyped as:
  *
  * public <function>(id, menu, item)
- *   id     - Client the menu is being acted upon.
- *   menu   - Menu resource identifier.
- *   item   - Item the client selected.  If less than 0, the menu was 
- *            cancelled and the item is a status code.  menu_display 
- *			  should never be called immediately if the item is a status 
- *			  code, for re-entrancy reasons.
+ *  id     - Client the menu is being acted upon.
+ *  menu   - Menu resource identifier.
+ *  item   - Item the client selected.  If less than 0, the menu was 
+ *           cancelled and the item is a status code.  menu_display 
+ *			 should never be called immediately if the item is a status 
+ *			 code, for re-entrancy reasons.
  *
- * @note The handler function should always return PLUGIN_HANDLED to block 
- *       any old menu handlers from potentially feeding on the menu, unless 
- *       that is the desired functionality.
+ * The handler function should always return PLUGIN_HANDLED to block 
+ * any old menu handlers from potentially feeding on the menu, unless 
+ * that is the desired functionality.
  *
  * @param title 		Title the menu should use.
  * @param handler		Name of the handler function.  The function will be invoked 
  *						once and only once to every menu_display() call.
- * @param ml			If true, the menu title and items will be looked up as multilingual keys
- *                      when the menu displays.
+ * @param ml			Unused (should be 0).
  * @return				Menu resource identifier which must be destroyed via 
  *						menu_destroy().  All menus are destroyed when the plugin 
  *						unloads.
  * @error				Function name not found.
  */
-native menu_create(const title[], const handler[], bool:ml = false);
+native menu_create(const title[], const handler[], ml=0);
 
 /**
- * Creates a menu item callback handler.
+ * Creates a menu item callback handler.  
  *
- * @note The handler function should be prototyped as:
+ * The handler function should be prototyped as:
  *
  * public <function>(id, menu, item)
- *   id      - Client index being displayed to.
- *   menu    - Menu resource identifier.
- *   item    - Item being drawn.
- *   <return> - ITEM_IGNORE to use the default functionality.
- *              ITEM_ENABLED to explicitly enable or ITEM_DISABLED to explicitly disable.
+ *  id      - Client index being displayed to.
+ *  menu    - Menu resource identifier.
+ *  item    - Item being drawn.
+ * <return> - ITEM_IGNORE to use the default functionality.  ITEM_ENABLED to 
+ *            explicitly enable or ITEM_DISABLED to explicitly disable.
  *
  * @param function		Function name.
  * @return				Menu callback ID.
@@ -258,17 +257,6 @@ native menu_item_setcmd(menu, item, const info[]);
 native menu_item_setcall(menu, item, callback=-1);
 
 /**
- * Sets an item's access.
- *
- * @param menu			Menu resource identifier.
- * @param item			Item identifier.
- * @param access		New access required by the player for access to the item.
- * @return				1 on success, 0 on failure.
- * @error				Invalid menu resource.
- */
-native menu_item_setaccess(menu, item, access=0);
-
-/**
  * Destroys a menu.  Player menus will be cancelled (although may still linger 
  * on the HUD), and future attempts to access the menu resource will result in 
  * an error.
@@ -287,11 +275,11 @@ native menu_destroy(menu);
 /**
  * Returns information about a menu (if any) the client is currently viewing.
  *
- * @note If newmenu is valid, then the menu will refer to the menuid associated with 
- *       the title. If newmenu is not valid, and the menu is valid, then the player 
- *       is viewing a menu displayed with show_menu().
+ * If newmenu is valid, then the menu will refer to the menuid associated with 
+ * the title.  If newmenu is not valid, and the menu is valid, then the player 
+ * is viewing a menu displayed with show_menu().
  *
- * @note Both may be invalid if the player is not viewing a menu.
+ * Both may be invalid if the player is not viewing a menu.
  *
  * @param id			Client index.
  * @param menu			Variable to store old menu id.  If none, then <1 will be 
@@ -307,8 +295,8 @@ native player_menu_info(id, &menu, &newmenu, &menupage=0);
 /**
  * Adds a blank line to a menu.
  * 
- * @note When using slot=1 this might break your menu. To achieve this functionality
- *       menu_addblank2 should be used.
+ * When using slot=1 this might break your menu. To achieve this functionality
+ * menu_addblank2 should be used.
  * 
  * @param menu			Menu resource identifier.
  * @param slot			1 (default) if the line should shift the numbering down.
@@ -319,10 +307,10 @@ native player_menu_info(id, &menu, &newmenu, &menupage=0);
 native menu_addblank(menu, slot=1);
 
 /**
- * Adds a text line to a menu.
+ * Adds a text line to a menu.  Only available in amxmodx 1.8.1 and above.
  *
- * @note When using slot=1 this might break your menu. To achieve this functionality
- *       menu_addtext2 should be used.
+ * When using slot=1 this might break your menu. To achieve this functionality
+ * menu_addtext2 should be used.
  * 
  * @param menu			Menu resource identifier.
  * @param text			Text to add.
@@ -336,9 +324,11 @@ native menu_addtext(menu, const text[], slot=1);
 /**
  * Adds a blank line to a menu, always shifting the numbering down.
  * 
- * @note This will add a special item to create a blank line. It will affect the menu
- *       item count and pagination. These items can be modified later but will ignore 
- *       access and item callback results.
+ * This will add a special item to create a blank line. It will affect the menu
+ * item count and pagination. These items can be modified later but will ignore 
+ * access and item callback results.
+ * 
+ * Only available in 1.8.3 and above.
  * 
  * @param menu          Menu resource identifier.
  * 
@@ -351,9 +341,11 @@ native menu_addblank2( menu );
 /**
  * Adds a text line to a menu, always shifting the numbering down.
  * 
- * @note This will add a special item to create a blank line. It will affect the menu
- *       item count and pagination. These items can be modified later but will ignore 
- *       access and item callback results.
+ * This will add a special item to create a blank line. It will affect the menu
+ * item count and pagination. These items can be modified later but will ignore 
+ * access and item callback results.
+ * 
+ * Only available in 1.8.3 and above.
  *
  * @param menu          Menu resource identifier.
  * @param text          Text to add.

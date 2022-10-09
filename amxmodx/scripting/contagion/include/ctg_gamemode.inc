@@ -7,3 +7,4 @@
 
 native GameMode:ctg_gamemode_get_current();
 native bool:ctg_gamemode_set_next(const clasname[]);
+native ctg_gamemode_set_default(const classname[]);

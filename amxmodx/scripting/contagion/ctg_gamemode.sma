@@ -1,24 +1,32 @@
 #include <amxmodx>
+#include <amxmisc>
 #include <engine>
 #include <fakemeta>
 #include <cstrike>
 #include <orpheu>
 #include <orpheu_stocks>
+#include <json>
 #include <oo>
 
 #include <ctg_const>
 #include <ctg_util>
 
-#define MAX_PREVIOUS_GAMEMODES 8 // max previous gamemode objects to store
+#define MAX_PREVIOUS_GAMEMODES 10 // max previous gamemode objects to store
 
 new g_pGameRules;
 new g_GameThinkEntity;
+new g_fwEntSpawn;
+new Trie:g_Objectives;
+new Float:g_RoundStartTime;
+new Float:g_RoundTime;
 
 new GameMode:g_objCurrGameMode = @null;
 new Array:g_aPrevGameModes = Invalid_Array;
-new g_NextGameMode[STRLEN_SHORT] = "GameMode";
+new g_NextGameMode[STRLEN_SHORT];
+new g_DefaultGameMode[STRLEN_SHORT];
 
 new Float:CvarStartDelay;
+new CvarRoundTime;
 
 public oo_init()
 {
@@ -34,8 +42,9 @@ public oo_init()
 		oo_dtor(cl, "Dtor");
 
 		oo_mthd(cl, "Start");
-		oo_mthd(cl, "End"); 
+		oo_mthd(cl, "End");
 		oo_mthd(cl, "WinConditions"); // bool:()
+		oo_mthd(cl, "RoundTimeExpired");
 		oo_mthd(cl, "Think", @cell); // (ent)
 
 		oo_mthd(cl, "GetCurrentMode"); // GameMode:()
@@ -53,6 +62,13 @@ public oo_init()
 public plugin_precache()
 {
 	OrpheuRegisterHook(OrpheuGetFunction("InstallGameRules"), "OnInstallGameRules", OrpheuHookPost);
+
+	g_Objectives = TrieCreate();
+
+	LoadJson();
+
+	if (TrieGetSize(g_Objectives) > 0)
+		g_fwEntSpawn = register_forward(FM_Spawn, "OnEntSpawn");
 }
 
 public OnInstallGameRules()
@@ -60,9 +76,29 @@ public OnInstallGameRules()
 	g_pGameRules = OrpheuGetReturn();
 }
 
+public OnEntSpawn(ent)
+{
+	if (!pev_valid(ent))
+		return FMRES_IGNORED;
+	
+	static class[STRLEN_SHORT];
+	entity_get_string(ent, EV_SZ_classname, class, charsmax(class));
+
+	if (TrieKeyExists(g_Objectives, class))
+	{
+		remove_entity(ent);
+		return FMRES_SUPERCEDE;
+	}
+
+	return FMRES_IGNORED;
+}
+
 public plugin_init()
 {
 	register_plugin("[CTG] Game Mode", CTG_VERSION, "holla");
+
+	if (g_fwEntSpawn)
+		unregister_forward(FM_Spawn, g_fwEntSpawn);
 
 	register_event("HLTV", "OnEventNewRound", "a", "1=0", "2=0");
 	register_event("TextMsg", "OnEventCommenceRestart", "a", "2=#Game_Commencing", "2=#Game_will_restart_in");
@@ -79,6 +115,11 @@ public plugin_init()
 	new pcvar = create_cvar("ctg_gamemode_start_delay", "20");
 	bind_pcvar_float(pcvar, CvarStartDelay);
 
+	CvarRoundTime = get_cvar_pointer("mp_roundtime");
+}
+
+public plugin_cfg()
+{
 	OnEventNewRound();
 }
 
@@ -88,6 +129,7 @@ public plugin_natives()
 
 	register_native("ctg_gamemode_get_current", "native_gamemode_get_current");
 	register_native("ctg_gamemode_set_next", "native_gamemode_set_next");
+	register_native("ctg_gamemode_set_default", "native_gamemode_set_default");
 }
 
 public GameMode:native_gamemode_get_current(plugin_id, num_params)
@@ -103,26 +145,50 @@ public bool:native_gamemode_set_next(plugin_id, num_params)
 	return SetNextGameMode(classname);
 }
 
+public native_gamemode_set_default(plugin_id, num_params)
+{
+	static classname[STRLEN_SHORT];
+	get_string(1, classname, charsmax(classname));
+
+	copy(g_DefaultGameMode, charsmax(g_DefaultGameMode), classname);
+}
+
 public OnEventNewRound()
 {
 	RemoveGameThinkEntity();
 
 	if (g_NextGameMode[0])
+	{
 		ChangeGameMode(g_NextGameMode);
+	}
+	else if (g_objCurrGameMode != @null)
+	{
+		static classname[STRLEN_SHORT];
+		oo_get_classname(g_objCurrGameMode, classname, charsmax(classname));
+		ChangeGameMode(classname);
+	}
+	else
+	{
+		ChangeGameMode(g_DefaultGameMode);
+	}
 
 	if (g_objCurrGameMode != @null)
 		oo_call(g_objCurrGameMode, "OnNewRound");
+
+	g_RoundTime = get_pcvar_float(CvarRoundTime) * 60.0;
 }
 
 public OnEventRoundStart()
 {
+	g_RoundStartTime = get_gametime();
+
 	if (g_objCurrGameMode != @null)
 		oo_call(g_objCurrGameMode, "OnRoundStart");
 }
 
 public OnEventJoinTeam()
 {
-	static loguser[80], name[32];
+	static loguser[STRLEN_LONG], name[STRLEN_SHORT];
 	read_logargv(0, loguser, charsmax(loguser));
 	parse_loguser(loguser, name, charsmax(name));
 
@@ -151,7 +217,10 @@ public OnEventJoinTeam()
 
 public OnEventCommenceRestart()
 {
+	ClearPreviousGameModes();
 	RemoveGameThinkEntity();
+	oo_delete(g_objCurrGameMode);
+	g_objCurrGameMode = @null;
 }
 
 public OnEventRoundEnd()
@@ -192,9 +261,8 @@ public GameMode@OnJoinTeam() {}
 
 public GameMode@OnRoundStart()
 {
-	server_print("GameMode@OnRoundStart()");
-	CreateGameThinkEntity();
-	SetGameNextThink(CvarStartDelay);
+	new ent = CreateGameThinkEntity();
+	entity_set_float(ent, EV_FL_nextthink, get_gametime() + CvarStartDelay);
 }
 
 public GameMode@Start()
@@ -227,12 +295,21 @@ public GameMode@Think(ent)
 			RemoveGameThinkEntity();
 			return;
 		}
+
+		if (get_gametime() >= g_RoundStartTime + g_RoundTime)
+		{
+			oo_call(this, "RoundTimeExpired");
+		}
 	}
 
-	SetGameNextThink(0.1);
+	entity_set_float(ent, EV_FL_nextthink, get_gametime() + 0.1);
 }
 
 public GameMode@WinConditions()
+{
+}
+
+public GameMode@RoundTimeExpired()
 {
 }
 
@@ -265,11 +342,7 @@ public bool:GameMode@SetNextMode(const classname[])
 
 public GameMode@ClearPreviousModes()
 {
-	while (ArraySize(g_aPrevGameModes) > 0)
-	{
-		oo_delete(ArrayGetCell(g_aPrevGameModes, 0));
-		ArrayDeleteItem(g_aPrevGameModes, 0);
-	}
+	ClearPreviousGameModes();
 }
 
 bool:SetNextGameMode(const classname[])
@@ -325,12 +398,20 @@ CreateGameThinkEntity()
 RemoveGameThinkEntity()
 {
 	if (is_valid_ent(g_GameThinkEntity))
-		remove_entity(g_GameThinkEntity);
+	{
+		entity_set_int(g_GameThinkEntity, EV_INT_flags, entity_get_int(g_GameThinkEntity, EV_INT_flags) | FL_KILLME);
+		entity_set_float(g_GameThinkEntity, EV_FL_nextthink, get_gametime());
+		g_GameThinkEntity = FM_NULLENT;
+	}
 }
 
-SetGameNextThink(Float:time)
+ClearPreviousGameModes()
 {
-	entity_set_float(g_GameThinkEntity, EV_FL_nextthink, get_gametime() + time);
+	while (ArraySize(g_aPrevGameModes) > 0)
+	{
+		oo_delete(ArrayGetCell(g_aPrevGameModes, 0));
+		ArrayDeleteItem(g_aPrevGameModes, 0);
+	}
 }
 
 InitializePlayerCounts(&numTrs=0, &numCts=0, &numSpawnableTrs=0, &numSpawnableCts=0)
@@ -368,4 +449,30 @@ InitializePlayerCounts(&numTrs=0, &numCts=0, &numSpawnableTrs=0, &numSpawnableCt
 	set_gamerules_int(@CHLMP, "m_iNumSpawnableCT", numSpawnableCts);
 	set_gamerules_int(@CHLMP, "m_iNumTerrorist", numTrs);
 	set_gamerules_int(@CHLMP, "m_iNumCT", numCts);
+}
+
+LoadJson()
+{
+	static filepath[STRLEN_LONG];
+	get_configsdir(filepath, charsmax(filepath));
+	formatex(filepath, charsmax(filepath), "%s/contagion/gamemode.json", filepath);
+
+	new JSON:json = json_parse(filepath, true, true);
+	if (json == Invalid_JSON) // invalid json file
+		return;
+
+	new JSON:objectives_j = json_object_get_value(json, "objectives");
+	if (objectives_j != Invalid_JSON)
+	{
+		static value[STRLEN_SHORT];
+		for (new i = json_array_get_count(objectives_j) - 1; i >= 0; i--)
+		{
+			json_array_get_string(objectives_j, i, value, charsmax(value));
+			TrieSetCell(g_Objectives, value, 1);
+		}
+		json_free(objectives_j);
+	}
+
+	json_free(json);
+	server_print("Loaded json (%s)", filepath);
 }

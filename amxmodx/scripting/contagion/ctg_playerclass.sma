@@ -9,7 +9,7 @@
 #include <ctg_const>
 #include <ctg_util>
 
-#define DEBUG
+//#define DEBUG
 
 new PlayerClass:g_objPlayerClass[MAX_PLAYERS + 1] = {@null, ...};
 
@@ -204,7 +204,7 @@ public OnItemDeploy_Post(entity)
 	if (!pev_valid(entity))
 		return FMRES_IGNORED;
 	
-	new id = get_ent_data_entity(entity, "CBasePlayerItem", "m_pPlayer");
+	new id = get_ent_data_entity(entity, @CBPITEM, "m_pPlayer");
 	if (!is_user_alive(id))
 		return FMRES_IGNORED;
 
@@ -515,7 +515,7 @@ public bool:PlayerClass@AssignProps()
 	new this = @this;
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
-	if (classinfo_obj != @null) // no object assigned
+	if (classinfo_obj == @null) // no object assigned
 		return false;
 
 	new player = oo_get(this, "player_index");
@@ -570,7 +570,7 @@ public bool:PlayerClass@ChangeWeaponModel(entity)
 	new this = @this;
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
-	if (classinfo_obj != @null) // no object assigned
+	if (classinfo_obj == @null) // no object assigned
 		return false;
 
 	static classname[STRLEN_SHORT];
@@ -612,7 +612,7 @@ public bool:PlayerClass@ChangeMaxSpeed()
 	new this = @this;
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
-	if (classinfo_obj != @null) // no object assigned
+	if (classinfo_obj == @null) // no object assigned
 		return false;
 
 	new Float:speed_val = Float:oo_call(classinfo_obj, "GetCvarFloat", "speed");
@@ -639,7 +639,7 @@ public bool:PlayerClass@ChangeSound(id, channel, const sample[], Float:vol, Floa
 	new this = @this;
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
-	if (classinfo_obj != @null) // no object assigned
+	if (classinfo_obj == @null) // no object assigned
 		return false;
 
 	new Array:sounds_a = Invalid_Array;
@@ -647,21 +647,15 @@ public bool:PlayerClass@ChangeSound(id, channel, const sample[], Float:vol, Floa
 
 	if (!TrieGetCell(sounds_t, sample, sounds_a)) // no sound replacement
 		return false;
-	
-	if (sounds_a == Invalid_Array) // invalid sound array
-		return false;
-	
-	new player = oo_get(this, "player_index");
-	if (!is_user_alive(player)) // player not alive
-		return false;
 
 	static soundpath[STRLEN_LONG];
 	ArrayGetRandomString(sounds_a, soundpath, charsmax(soundpath));
-	emit_sound(player, channel, soundpath, vol, attn, flags, pitch);
+	emit_sound(id, channel, soundpath, vol, attn, flags, pitch);
 
 #if defined DEBUG
 	server_print("sound changed to (%s)", soundpath);
 #endif
+
 	return true;
 }
 

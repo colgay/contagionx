@@ -761,8 +761,12 @@ stock constraint_offset(low, high, seed, offset)
 	{
 		return low + (offset % numElements);
 	}
-	
-	return high - (abs(offset) % numElements) + 1;
+	else
+	{
+		return high - (abs(offset) % numElements) + 1;
+	}
+
+	return 0;	// Makes the compiler happy -_-
 }
 
 /**
@@ -808,13 +812,6 @@ stock reset_menu(index)
 
 /**
  * Calls a function after a specified time has elapsed.
- *
- * @note The function is called in the following manner if data is passed:
- *   data[]          - Data passed
- *   id              - Task index
- *
- * @note The function is called in the following manner if no data is passed:
- *   id              - Task index
  *
  * @param time          Time interval to assign
  * @param function      Function to execute

@@ -22,20 +22,18 @@ public oo_init()
 		oo_mthd(cl, "End");
 
 		oo_mthd(cl, "WinConditions");
+		oo_mthd(cl, "RoundTimeExpired");
 
 		oo_mthd(cl, "OnNewRound");
 		oo_mthd(cl, "OnJoinTeam", @cell, @cell);
 	}
 }
 
-public plugin_precache()
-{
-	ctg_gamemode_set_next("InfectionMode");
-}
-
 public plugin_init()
 {
 	register_plugin("[CTG] Game Mode: Infection", CTG_VERSION, "holla");
+
+	ctg_gamemode_set_default("InfectionMode");
 }
 
 public InfectionMode@Ctor()
@@ -78,25 +76,69 @@ public InfectionMode@End()
 public InfectionMode@WinConditions()
 {
 	new human_count = 0;
+	new zombie_count = 0;
 	new spawnable_count = 0;
 	for (new i = 1; i <= MaxClients; i++) // loop through all players
 	{
 		if (!is_user_connected(i)) // filter not connected
 			continue;
 		
-		if (!(CS_TEAM_T <= cs_get_user_team(i) <= CS_TEAM_CT)
-			|| get_ent_data(i, @CBPLR, "m_iMenu") == _:CS_Menu_ChooseAppearance) // filter not spawnable
-			continue;
+		if (CS_TEAM_T <= cs_get_user_team(i) <= CS_TEAM_CT && get_ent_data(i, @CBPLR, "m_iMenu") != _:CS_Menu_ChooseAppearance)
+		{
+			if (is_user_alive(i))
+			{
+				if (ctg_playerclass_is(i, "Human", true))
+					human_count++;
+				else if (ctg_playerclass_is(i, "Zombie", true))
+					zombie_count++;
+			}
+		}
 
-		if (is_user_alive(i) && ctg_playerclass_is(i, "Human", true)) // is alive human?
-			human_count++; // count + 1
-		
 		spawnable_count++;
 	}
 
 	if (spawnable_count > 1 && human_count < 1) // all humans are dead
 	{
 		TerminateRound(10.0, WINSTATUS_TERRORISTS, ROUND_TERRORISTS_WIN, "Zombies Win", "terwin");
+		oo_call(@this, "End");
+		return;
+	}
+
+	if (zombie_count < 1 && human_count < 1)
+	{
+		TerminateRound(5.0, WINSTATUS_DRAW, ROUND_END_DRAW, "Round Draw", "rounddraw");
+		oo_call(@this, "End");
+		return;
+	}
+}
+
+public InfectionMode@RoundTimeExpired()
+{
+	new human_count = 0;
+	new zombie_count = 0;
+	new spawnable_count = 0;
+	for (new i = 1; i <= MaxClients; i++) // loop through all players
+	{
+		if (!is_user_connected(i)) // filter not connected
+			continue;
+		
+		if (CS_TEAM_T <= cs_get_user_team(i) <= CS_TEAM_CT && get_ent_data(i, @CBPLR, "m_iMenu") != _:CS_Menu_ChooseAppearance)
+		{
+			if (is_user_alive(i))
+			{
+				if (ctg_playerclass_is(i, "Human", true))
+					human_count++;
+				else if (ctg_playerclass_is(i, "Zombie", true))
+					zombie_count++;
+			}
+		}
+
+		spawnable_count++;
+	}
+
+	if (human_count > 0 && spawnable_count > 0)
+	{
+		TerminateRound(10.0, WINSTATUS_CTS, ROUND_CTS_WIN, "Humans Win", "ctwin");
 		oo_call(@this, "End");
 		return;
 	}
@@ -121,6 +163,6 @@ public InfectionMode@OnJoinTeam(id, CsTeams:team)
 	}
 	else if (team == CS_TEAM_SPECTATOR)
 	{
-		ctg_playerclass_change(id, ""); // delete
+		ctg_playerclass_change(id, "", false); // delete
 	}
 }

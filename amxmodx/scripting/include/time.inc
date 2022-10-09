@@ -24,8 +24,6 @@ enum
     timeunit_hours,
     timeunit_days,
     timeunit_weeks,
-    timeunit_months,
-    timeunit_years,
 };
 
 /* Seconds in each time unit */
@@ -33,8 +31,6 @@ enum
 #define SECONDS_IN_HOUR   3600
 #define SECONDS_IN_DAY    86400
 #define SECONDS_IN_WEEK   604800
-#define SECONDS_IN_MONTH  2592000
-#define SECONDS_IN_YEAR   31536000
 
 /**
  * Stock by Brad.
@@ -43,7 +39,7 @@ enum
  *
  * @param id    		The player whose language the length should be translated to
  * @param unitCnt		The number of time units you want translated into verbose text
- * @param type			The type of unit (i.e. seconds, minutes, hours, days, weeks, months, years) that you are passing in
+ * @param type			The type of unit (i.e. seconds, minutes, hours, days, weeks) that you are passing in
  * @param output		The variable you want the verbose text to be placed in
  * @param outputLen		The length of the output variable
  *
@@ -54,7 +50,7 @@ stock get_time_length(id, unitCnt, type, output[], outputLen)
     if (unitCnt > 0)
     {
         // determine the number of each time unit there are
-        new yearCnt = 0, monthCnt = 0, weekCnt = 0, dayCnt = 0, hourCnt = 0, minuteCnt = 0, secondCnt = 0;
+        new weekCnt = 0, dayCnt = 0, hourCnt = 0, minuteCnt = 0, secondCnt = 0;
 
         switch (type)
         {
@@ -63,15 +59,7 @@ stock get_time_length(id, unitCnt, type, output[], outputLen)
             case timeunit_hours:   secondCnt = unitCnt * SECONDS_IN_HOUR;
             case timeunit_days:    secondCnt = unitCnt * SECONDS_IN_DAY;
             case timeunit_weeks:   secondCnt = unitCnt * SECONDS_IN_WEEK;
-            case timeunit_months:  secondCnt = unitCnt * SECONDS_IN_MONTH;
-            case timeunit_years:   secondCnt = unitCnt * SECONDS_IN_YEAR;
         }
-
-        yearCnt = secondCnt / SECONDS_IN_YEAR;
-        secondCnt -= (yearCnt * SECONDS_IN_YEAR);
-
-        monthCnt = secondCnt / SECONDS_IN_MONTH;
-        secondCnt -= (monthCnt * SECONDS_IN_MONTH);
 
         weekCnt = secondCnt / SECONDS_IN_WEEK;
         secondCnt -= (weekCnt * SECONDS_IN_WEEK);
@@ -87,12 +75,8 @@ stock get_time_length(id, unitCnt, type, output[], outputLen)
 
         // translate the unit counts into verbose text
         new maxElementIdx = -1;
-        new timeElement[7][33];
+        new timeElement[5][33];
 
-        if (yearCnt > 0)
-            format(timeElement[++maxElementIdx], charsmax(timeElement[]), "%i %L", yearCnt, id, (yearCnt == 1) ? "TIME_ELEMENT_YEAR" : "TIME_ELEMENT_YEARS");
-        if (monthCnt > 0)
-            format(timeElement[++maxElementIdx], charsmax(timeElement[]), "%i %L", monthCnt, id, (monthCnt == 1) ? "TIME_ELEMENT_MONTH" : "TIME_ELEMENT_MONTHS");
         if (weekCnt > 0)
             format(timeElement[++maxElementIdx], charsmax(timeElement[]), "%i %L", weekCnt, id, (weekCnt == 1) ? "TIME_ELEMENT_WEEK" : "TIME_ELEMENT_WEEKS");
         if (dayCnt > 0)
@@ -111,8 +95,6 @@ stock get_time_length(id, unitCnt, type, output[], outputLen)
             case 2: formatex(output, outputLen, "%s, %s %L %s", timeElement[0], timeElement[1], id, "TIME_ELEMENT_AND", timeElement[2]);
             case 3: formatex(output, outputLen, "%s, %s, %s %L %s", timeElement[0], timeElement[1], timeElement[2], id, "TIME_ELEMENT_AND", timeElement[3]);
             case 4: formatex(output, outputLen, "%s, %s, %s, %s %L %s", timeElement[0], timeElement[1], timeElement[2], timeElement[3], id, "TIME_ELEMENT_AND", timeElement[4]);
-            case 5: formatex(output, outputLen, "%s, %s, %s, %s, %s %L %s", timeElement[0], timeElement[1], timeElement[2], timeElement[3], timeElement[4], id, "TIME_ELEMENT_AND", timeElement[5]);
-            case 6: formatex(output, outputLen, "%s, %s, %s, %s, %s, %s %L %s", timeElement[0], timeElement[1], timeElement[2], timeElement[3], timeElement[4], timeElement[5], id, "TIME_ELEMENT_AND", timeElement[6]);
         }
     }
 }

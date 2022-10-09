@@ -92,9 +92,12 @@ stock TerminateRound(Float:delay, status, event, const message[], const audio[]=
 		static msgSendAudio;
 		msgSendAudio || (msgSendAudio = get_user_msgid("SendAudio"));
 		
+		static code[STRLEN_SHORT];
+		formatex(code, charsmax(code), "%!MRAD_%s", audio);
+
 		emessage_begin(MSG_BROADCAST, msgSendAudio);
 		ewrite_byte(0);
-		ewrite_string(audio);
+		ewrite_string(code);
 		ewrite_short(100);
 		emessage_end();
 	}
