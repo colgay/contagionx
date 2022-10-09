@@ -1,6 +1,0 @@
-L 10/05/2022 - 03:43:48: Start of error session.
-L 10/05/2022 - 03:43:48: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20221005.log")
-L 10/05/2022 - 03:43:48: [OO] Class (GameMode) not found
-L 10/05/2022 - 03:43:48: [AMXX] Displaying debug trace (plugin "ctg_gamerules.amxx", version "0.2")
-L 10/05/2022 - 03:43:48: [AMXX] Run time error 10: native error (native "oo_new")
-L 10/05/2022 - 03:43:48: [AMXX]    [0] ctg_gamerules.sma::plugin_init (line 50)

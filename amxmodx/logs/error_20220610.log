@@ -1,6 +1,0 @@
-L 06/10/2022 - 17:55:04: Start of error session.
-L 06/10/2022 - 17:55:04: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220610.log")
-L 06/10/2022 - 17:55:04: [OO] New Player: No such ctor (#args: 1)
-L 06/10/2022 - 17:55:04: [AMXX] Displaying debug trace (plugin "test_oo.amxx", version "unknown")
-L 06/10/2022 - 17:55:04: [AMXX] Run time error 10: native error (native "oo_new")
-L 06/10/2022 - 17:55:04: [AMXX]    [0] test_oo.sma::plugin_init (line 15)

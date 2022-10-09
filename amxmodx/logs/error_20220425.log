@@ -1,6 +1,0 @@
-L 04/25/2022 - 00:44:30: Start of error session.
-L 04/25/2022 - 00:44:30: Info (map "de_dust2") (file "addons/amxmodx/logs/error_20220425.log")
-L 04/25/2022 - 00:44:30: [FUN] Invalid player 10
-L 04/25/2022 - 00:44:30: [AMXX] Displaying debug trace (plugin "hao123.amxx", version "unknown")
-L 04/25/2022 - 00:44:30: [AMXX] Run time error 10: native error (native "set_user_health")
-L 04/25/2022 - 00:44:30: [AMXX]    [0] hao123.sma::OnPlayerSpawn_Post (line 37)
