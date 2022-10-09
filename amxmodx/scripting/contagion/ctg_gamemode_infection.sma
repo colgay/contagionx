@@ -104,7 +104,7 @@ public InfectionMode@WinConditions()
 		return;
 	}
 
-	if (zombie_count < 1 && human_count < 1)
+	if (spawnable_count > 1 && zombie_count < 1 && human_count < 1)
 	{
 		TerminateRound(5.0, WINSTATUS_DRAW, ROUND_END_DRAW, "Round Draw", "rounddraw");
 		oo_call(@this, "End");
