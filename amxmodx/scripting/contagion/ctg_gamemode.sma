@@ -3,6 +3,7 @@
 #include <engine>
 #include <fakemeta>
 #include <cstrike>
+#include <hamsandwich>
 #include <orpheu>
 #include <orpheu_stocks>
 #include <json>
@@ -19,13 +20,15 @@ new g_fwEntSpawn;
 new Trie:g_Objectives;
 new Float:g_RoundStartTime;
 new Float:g_RoundTime;
+new Float:g_RespawnTime[MAX_PLAYERS + 1];
+new bool:g_IsKilled[MAX_PLAYERS + 1];
 
 new GameMode:g_objCurrGameMode = @null;
 new Array:g_aPrevGameModes = Invalid_Array;
 new g_NextGameMode[STRLEN_SHORT];
 new g_DefaultGameMode[STRLEN_SHORT];
 
-new Float:CvarStartDelay;
+new Float:CvarRespawnTime;
 new CvarRoundTime;
 
 public oo_init()
@@ -37,6 +40,7 @@ public oo_init()
 
 		oo_var(cl, "is_started", 1); // bool:
 		oo_var(cl, "is_ended", 1); // bool:
+		oo_var(cl, "is_deathmatch", 1); // bool:
 
 		oo_ctor(cl, "Ctor");
 		oo_dtor(cl, "Dtor");
@@ -52,10 +56,16 @@ public oo_init()
 		oo_mthd(cl, "GetNextMode", @stringex, @cell) // bool:(output[], len)
 		oo_mthd(cl, "SetNextMode", @string); // bool:(const classname[])
 		oo_mthd(cl, "ClearPreviousModes");
+		oo_mthd(cl, "SetPlayerRespawnTime", @cell, @float); // (player_id, Float:respawn_time)
+		oo_mthd(cl, "CanPlayerRespawn", @cell); // (player_id)
+		oo_mthd(cl, "RespawnPlayer", @cell); // (player_id)
+		oo_mthd(cl, "GetRoundStartTime");
 		
 		oo_mthd(cl, "OnNewRound");
 		oo_mthd(cl, "OnRoundStart");
 		oo_mthd(cl, "OnJoinTeam", @cell, @cell); // (player_id, team)
+		oo_mthd(cl, "OnPlayerSpawn", @cell); // (player_id)
+		oo_mthd(cl, "OnPlayerKilled", @cell, @cell, @cell); // (player_id, attacker, shouldgib)
 	}
 }
 
@@ -108,12 +118,15 @@ public plugin_init()
 
 	register_think("gamemode", "OnGameThink");
 
+	RegisterHam(Ham_Spawn, "player", "OnPlayerSpawn_Post", 1);
+	RegisterHam(Ham_Killed, "player", "OnPlayerKilled_Post", 1);
+
 	OrpheuRegisterHookFromObject(g_pGameRules, "CheckWinConditions", "CGameRules", "OnCheckWinConditions");
 
 	g_aPrevGameModes = ArrayCreate(1);
 
-	new pcvar = create_cvar("ctg_gamemode_start_delay", "20");
-	bind_pcvar_float(pcvar, CvarStartDelay);
+	new pcvar = create_cvar("ctg_gamemode_respawn_time", "5.0");
+	bind_pcvar_float(pcvar, CvarRespawnTime);
 
 	CvarRoundTime = get_cvar_pointer("mp_roundtime");
 }
@@ -130,6 +143,7 @@ public plugin_natives()
 	register_native("ctg_gamemode_get_current", "native_gamemode_get_current");
 	register_native("ctg_gamemode_set_next", "native_gamemode_set_next");
 	register_native("ctg_gamemode_set_default", "native_gamemode_set_default");
+	register_native("ctg_gamemode_is", "native_gamemode_is");
 }
 
 public GameMode:native_gamemode_get_current(plugin_id, num_params)
@@ -151,6 +165,17 @@ public native_gamemode_set_default(plugin_id, num_params)
 	get_string(1, classname, charsmax(classname));
 
 	copy(g_DefaultGameMode, charsmax(g_DefaultGameMode), classname);
+}
+
+public bool:native_gamemode_is(plugin_id, num_params)
+{
+	if (g_objCurrGameMode == @null)
+		return false;
+	
+	static classname[STRLEN_SHORT];
+	get_string(1, classname, charsmax(classname));
+
+	return oo_isa(g_objCurrGameMode, classname, bool:get_param(2));
 }
 
 public OnEventNewRound()
@@ -237,6 +262,31 @@ public OnGameThink(ent)
 		oo_call(g_objCurrGameMode, "Think", ent);
 }
 
+public OnPlayerSpawn_Post(id)
+{
+	if (!is_user_alive(id))
+		return;
+
+	g_IsKilled[id] = false;
+	
+	if (g_objCurrGameMode != @null)
+		oo_call(g_objCurrGameMode, "OnPlayerSpawn", id);
+}
+
+public OnPlayerKilled_Post(id, attacker, shouldgib)
+{
+	g_IsKilled[id] = true;
+
+	if (g_objCurrGameMode != @null)
+		oo_call(g_objCurrGameMode, "OnPlayerKilled", id, attacker, shouldgib);
+}
+
+public client_disconnected(id)
+{
+	g_IsKilled[id] = false;
+	g_RespawnTime[id] = 0.0;
+}
+
 public OrpheuHookReturn:OnCheckWinConditions()
 {
 	InitializePlayerCounts();
@@ -252,6 +302,7 @@ public GameMode@Ctor()
 	new this = @this;
 	oo_set(this, "is_started", false);
 	oo_set(this, "is_ended", false);
+	oo_set(this, "is_deathmatch", false);
 }
 
 public GameMode@Dtor() {}
@@ -262,7 +313,17 @@ public GameMode@OnJoinTeam() {}
 public GameMode@OnRoundStart()
 {
 	new ent = CreateGameThinkEntity();
-	entity_set_float(ent, EV_FL_nextthink, get_gametime() + CvarStartDelay);
+	entity_set_float(ent, EV_FL_nextthink, get_gametime());
+}
+
+public GameMode@OnPlayerSpawn(id) {}
+
+public GameMode@OnPlayerKilled(id)
+{
+	if (oo_call(@this, "CanPlayerRespawn", id))
+	{
+		g_RespawnTime[id] = get_gametime() + CvarRespawnTime;
+	}
 }
 
 public GameMode@Start()
@@ -281,28 +342,45 @@ public GameMode@End()
 public GameMode@Think(ent)
 {
 	new this = @this;
-	new bool:is_started = bool:oo_get(this, "is_started");
-	new bool:is_ended = bool:oo_get(this, "is_ended");
+	new Float:curr_time = get_gametime();
 
-	if (!is_started)
+	// gamemode is started
+	if (oo_get(this, "is_started"))
 	{
-		oo_call(this, "Start");
-	}
-	else
-	{
-		if (is_ended)
+		// gamemode is ended?
+		if (oo_get(this, "is_ended"))
 		{
 			RemoveGameThinkEntity();
 			return;
 		}
 
-		if (get_gametime() >= g_RoundStartTime + g_RoundTime)
+		// deathmatch?
+		if (oo_get(this, "is_deathmatch"))
+		{
+			// check respawn time for all players
+			for (new i = 1; i <= MaxClients; i++)
+			{
+				// time to respawn
+				if (g_IsKilled[i] && curr_time >= g_RespawnTime[i])
+				{
+					// can respawn?
+					if (oo_call(this, "CanPlayerRespawn", i))
+					{
+						// respawn player
+						oo_call(this, "RespawnPlayer", i);
+					}
+				}
+			}
+		}
+
+		// check if round time is expired
+		if (curr_time >= g_RoundStartTime + g_RoundTime)
 		{
 			oo_call(this, "RoundTimeExpired");
 		}
 	}
 
-	entity_set_float(ent, EV_FL_nextthink, get_gametime() + 0.1);
+	entity_set_float(ent, EV_FL_nextthink, curr_time + 0.1);
 }
 
 public GameMode@WinConditions()
@@ -343,6 +421,40 @@ public bool:GameMode@SetNextMode(const classname[])
 public GameMode@ClearPreviousModes()
 {
 	ClearPreviousGameModes();
+}
+
+public GameMode@SetPlayerRespawnTime(id, Float:respawn_time)
+{
+	g_RespawnTime[id] = respawn_time;
+}
+
+public bool:GameMode@CanPlayerRespawn(id)
+{
+	// player is already alive
+	if (is_user_alive(id))
+		return false;
+	
+	// player is not spawnable
+	if (!IsPlayerSpawnable(id))
+		return false;
+
+	new this = @this;
+	// gamemode is not started OR ended OR not deathmatch
+	if (!oo_get(this, "is_started") || oo_get(this, "is_ended") || !oo_get(this, "is_deathmatch"))
+		return false;
+
+	// pass
+	return true;
+}
+
+public GameMode@RespawnPlayer(id)
+{
+	ExecuteHamB(Ham_CS_RoundRespawn, id);
+}
+
+public Float:GameMode@GetRoundStartTime()
+{
+	return g_RoundStartTime;
 }
 
 bool:SetNextGameMode(const classname[])

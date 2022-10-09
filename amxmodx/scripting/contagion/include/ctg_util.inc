@@ -129,3 +129,8 @@ stock TerminateRound(Float:delay, status, event, const message[], const audio[]=
 	set_gamerules_int(@CHLMP, "m_bRoundTerminating", true);
 	set_gamerules_float(@CHLMP, "m_fTeamCount", get_gametime() + delay);
 }
+
+stock IsPlayerSpawnable(id)
+{
+	return (CS_TEAM_T <= cs_get_user_team(id) <= CS_TEAM_CT) && get_ent_data(id, @CBPLR, "m_iMenu") != _:CS_Menu_ChooseAppearance;
+}
