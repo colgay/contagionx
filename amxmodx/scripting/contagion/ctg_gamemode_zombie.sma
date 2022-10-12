@@ -134,6 +134,7 @@ public ZombieMode@Start()
 	}
 
 	oo_set(this, "is_deathmatch", true);
+	oo_set(this, "allow_infect", true);
 }
 
 public ZombieMode@End()
@@ -258,7 +259,7 @@ public ZombieMode@OnJoinTeam(id, CsTeams:team)
 
 public bool:ZombieMode@InfectPlayer(victim, attacker, headshot)
 {
-	if (!oo_call(this, "CanPlayerInfect", id, attacker))
+	if (!oo_call(@this, "CanPlayerInfect", victim, attacker))
 		return false;
 	
 	if (!is_user_connected(attacker) || attacker == victim)
