@@ -3,34 +3,41 @@
 #endif
 #define _weaponammo_included
 
+#define AMMOFULL -1
+
+#define BPAMMO_MAX_MULTIPLIER 2.0
+
+#define CsAmmoMax[%0] floatround(CS_AMMO_DATA[%0][AMMO_MAX] * BPAMMO_MAX_MULTIPLIER)
+#define CsAmmoAmount[%0] CS_AMMO_DATA[%0][AMMO_AMT]
+
 enum _:AmmoData
 {
-	AmmoAmt,
-	AmmoCost,
-	AmmoMax
+	AMMO_AMT,
+	AMMO_COST,
+	AMMO_MAX
 };
 
 // {Amount, Cost, Max}
-new const AMMO_DATA[][AmmoData] = 
+new const CS_AMMO_DATA[][AmmoData] = 
 {
 	{-1,  -1,  -1},
-	{10,  1, 30}, // 338magnum
-	{30,  1,  90}, // 762nato
-	{30,  1, 200}, // 556natobox
-	{30,  1,  90}, // 556nato
-	{ 8,  1,  32}, // buckshot
-	{12,  1, 100}, // 45acp
-	{50,  1, 100}, // 57mm
-	{ 1,  2,  1}, // 50ae
-	{13,  1,  52}, // 357sig
-	{30,  1, 100}, // 9mm
+	{10, 125,  30}, // 338magnum
+	{30,  80,  90}, // 762nato
+	{30,  60, 200}, // 556natobox
+	{30,  60,  90}, // 556nato
+	{ 8,  65,  32}, // buckshot
+	{12,  25, 100}, // 45acp
+	{50,  50, 100}, // 57mm
+	{ 7,  40,  35}, // 50ae
+	{13,  50,  52}, // 357sig
+	{30,  20, 120},  // 9mm
 	{ 1,  -1,   2}, // Flashbang
-	{ 1,  -1,   2}, // HEGrenade
-	{ 1,  -1,   3}, // SmokeGrenade
+	{ 1,  -1,   1}, // HEGrenade
+	{ 1,  -1,   1}, // SmokeGrenade
 	{-1,  -1,   1} // C4
 };
 
-new const AMMO_NAMES[][] =
+new const CS_AMMO_NAME[][] =
 {
 	"",
 	"338magnum",
@@ -49,7 +56,7 @@ new const AMMO_NAMES[][] =
 	"C4"
 };
 
-new const WEAPON_AMMOTYPES[] = 
+new const CSW_AMMO_TYPE[] = 
 {
 	0,
 	9, //p228
@@ -84,32 +91,7 @@ new const WEAPON_AMMOTYPES[] =
 	7 //p90
 }
 
-stock wa_getWeaponAmmoType(weapon)
-{
-	return WEAPON_AMMOTYPES[weapon];
-}
-
-stock wa_getAmmoAmount(type)
-{
-	return AMMO_DATA[type][AmmoAmt];
-}
-
-stock wa_getAmmoCost(type)
-{
-	return AMMO_DATA[type][AmmoCost];
-}
-
-stock wa_getAmmoMax(type)
-{
-	return AMMO_DATA[type][AmmoMax];
-}
-
-stock wa_getAmmoName(type, output[], len)
-{
-	copy(output, len, AMMO_NAMES[type]);
-}
-
-stock wa_getEntAmmoType(ent)
+stock GetEntAmmoType(ent)
 {
 	if (pev_valid(ent))
 		return get_ent_data(ent, "CBasePlayerWeapon", "m_iPrimaryAmmoType");
@@ -117,21 +99,18 @@ stock wa_getEntAmmoType(ent)
 	return 0;
 }
 
-stock wa_giveFullAmmo(player, type)
-{
-	wa_giveAmmo(player, type, AMMO_DATA[type][AmmoMax], AMMO_DATA[type][AmmoMax]);
-}
-
-stock wa_giveAmmo(player, type, amount=0, max=0)
+stock bool:GiveAmmo(player, type, amount=0, max=0)
 {
 	if (!amount)
-		amount = AMMO_DATA[type][AmmoAmt];
-	if (!max)
-		max = AMMO_DATA[type][AmmoMax];
-	
-	new ammo = getPlayerData(player, "m_rgAmmo", type);
+		amount = CsAmmoAmount[type];
+	else if (amount == AMMOFULL)
+		amount = CsAmmoMax[type];
 
-	ExecuteHamB(Ham_GiveAmmo, player, amount, AMMO_NAMES[type], max);
+	if (!max)
+		max = CsAmmoMax[type];
+	
+	new ammo = get_ent_data(player, "CBasePlayer", "m_rgAmmo", type);
+	ExecuteHamB(Ham_GiveAmmo, player, amount, CS_AMMO_NAME[type], max);
 	
 	if (ammo >= max)
 		return false;
@@ -139,14 +118,11 @@ stock wa_giveAmmo(player, type, amount=0, max=0)
 	return true;
 }
 
-stock wa_giveWeaponAmmo(player, weapon, amount=0, max=0)
+stock bool:GiveAmmoByWeapon(player, weapon_id, amount=0, max=0)
 {
-	new type = wa_getWeaponAmmoType(weapon);
-	return wa_giveAmmo(player, type, amount, max);
-}
+	if (!(CSW_P228 <= weapon_id <= CSW_P90))
+		return false;
 
-stock wa_giveWeaponFullAmmo(player, weapon)
-{
-	new type = wa_getWeaponAmmoType(weapon);
-	wa_giveFullAmmo(player, type);
+	new type = CSW_AMMO_TYPE[weapon_id];
+	return GiveAmmo(player, type, amount, max);
 }

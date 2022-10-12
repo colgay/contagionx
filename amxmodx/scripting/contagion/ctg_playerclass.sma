@@ -14,6 +14,7 @@
 new PlayerClass:g_objPlayerClass[MAX_PLAYERS + 1] = {@null, ...};
 
 new g_fwChangePlayerClass[ForwardType];
+new g_fwSetProps;
 new g_fwRet;
 
 public oo_init()
@@ -51,8 +52,9 @@ public oo_init()
 		oo_ctor(cl, "Ctor", @cell); // (player_index)
 		oo_dtor(cl, "Dtor");
 
-		oo_mthd(cl, "AssignProps");
-		oo_mthd(cl, "OnClassChange", @cell);  // (id, bool:assign_props)
+		oo_mthd(cl, "SetProps");
+		oo_mthd(cl, "SetPropsAfter", @cell);
+		oo_mthd(cl, "OnClassChange", @cell);  // (id, bool:set_props)
 		oo_mthd(cl, "ChangeWeaponModel", @cell); // bool:(entity)
 		oo_mthd(cl, "ChangeMaxSpeed"); // bool:()
 		oo_mthd(cl, "GetClassInfo"); // PlayerClasInfo:()
@@ -82,8 +84,9 @@ public plugin_init()
 	RegisterHam(Ham_Touch, "weapon_shield", "OnWeaponTouch");
 	RegisterHam(Ham_Touch, "armoury_entity", "OnWeaponTouch");
 
-	g_fwChangePlayerClass[FW_PRE] = CreateMultiForward("ctg_on_playerclass_change", ET_CONTINUE, FP_CELL, FP_STRING);
-	g_fwChangePlayerClass[FW_POST] = CreateMultiForward("ctg_on_playerclass_change_post", ET_IGNORE, FP_CELL, FP_STRING);
+	g_fwChangePlayerClass[FW_PRE] = CreateMultiForward("ctg_on_playerclass_change", ET_CONTINUE, FP_CELL, FP_STRING, FP_CELL);
+	g_fwChangePlayerClass[FW_POST] = CreateMultiForward("ctg_on_playerclass_change_post", ET_IGNORE, FP_CELL, FP_STRING, FP_CELL);
+	g_fwSetProps = CreateMultiForward("ctg_on_playerclass_set_props", ET_IGNORE, FP_CELL, FP_CELL);
 }
 
 // ---------- [AMXX Natives] ----------
@@ -195,7 +198,7 @@ public OnPlayerSpawn_Post(id)
 	
 	new PlayerClass:class_obj = g_objPlayerClass[id];
 	if (class_obj != @null)
-		oo_call(class_obj, "AssignProps")
+		oo_call(class_obj, "SetProps")
 }
 
 // Ham_Item_Deploy
@@ -249,7 +252,7 @@ public PlayerClassInfo@Ctor(const name[], const desc[])
 	server_print("PlayerClassInfo@Ctor(%s, %s)", name, desc);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	oo_set_str(this, "name", name);
 	oo_set_str(this, "desc", desc);
@@ -268,7 +271,7 @@ public PlayerClassInfo@Dtor()
 	server_print("PlayerClassInfo@Dtor()");
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	new Array:models_a = Array:oo_get(this, "models");
 	new Trie:vmodels_t = Trie:oo_get(this, "v_models");
@@ -305,7 +308,7 @@ public PlayerClassInfo@CreateCvar(const prefix[], const name[], const string[], 
 	server_print("PlayerClassInfo@CreateCvar(%s, %s, %s, %d)", prefix, name, string, flags);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	static cvar_name[STRLEN_NORMAL];
 	formatex(cvar_name, charsmax(cvar_name), "ctg_%s_%s", prefix, name); // actual cvar name
@@ -324,7 +327,7 @@ public PlayerClassInfo@GetCvar(const name[])
 	server_print("PlayerClassInfo@GetCvar(%s)", name);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 	new Trie:cvars_t = Trie:oo_get(this, "cvars");
 	new pcvar;
 
@@ -341,7 +344,7 @@ public Float:PlayerClassInfo@GetCvarFloat(const name[])
 	server_print("PlayerClassInfo@GetCvarFloat(%s)", name);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 	new Trie:cvars_t = Trie:oo_get(this, "cvars");
 	new pcvar;
 
@@ -358,7 +361,7 @@ public PlayerClassInfo@GetCvarString(const name[], output[], maxlen)
 	server_print("PlayerClassInfo@GetCvarString(%s)", name);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 	new Trie:cvars_t = Trie:oo_get(this, "cvars");
 	new pcvar;
 
@@ -375,7 +378,7 @@ public bool:PlayerClassInfo@LoadJson(const filename[])
 	server_print("PlayerClassInfo@LoadJson(%s)", filename);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	static filepath[STRLEN_LONG];
 	get_configsdir(filepath, charsmax(filepath));
@@ -483,7 +486,7 @@ public PlayerClass@Ctor(player_index)
 	server_print("PlayerClass@Ctor(%d)", player_index);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 	oo_set(this, "player_index", player_index);
 }
 
@@ -506,13 +509,13 @@ public PlayerClass@GetClassInfo()
 }
 
 // Assign player properties
-public bool:PlayerClass@AssignProps()
+public bool:PlayerClass@SetProps()
 {
 #if defined DEBUG
-	server_print("PlayerClass@AssignProps()");
+	server_print("PlayerClass@SetProps()");
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
 	if (classinfo_obj == @null) // no object assigned
@@ -557,8 +560,13 @@ public bool:PlayerClass@AssignProps()
 			ExecuteHamB(Ham_Item_Deploy, activeitem);
 	}
 
+	oo_call(this, "SetPropsAfter", player);
+	ExecuteForward(g_fwSetProps, g_fwRet, this, player);
+
 	return true;
 }
+
+public PlayerClass@SetPropsAfter(id) {}
 
 // Change player weapon model
 public bool:PlayerClass@ChangeWeaponModel(entity)
@@ -567,7 +575,7 @@ public bool:PlayerClass@ChangeWeaponModel(entity)
 	server_print("PlayerClass@ChangeWeaponModel(%d)", entity);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
 	if (classinfo_obj == @null) // no object assigned
@@ -609,7 +617,7 @@ public bool:PlayerClass@ChangeMaxSpeed()
 	server_print("PlayerClass@ChangeMaxSpeed()");
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
 	if (classinfo_obj == @null) // no object assigned
@@ -636,7 +644,7 @@ public bool:PlayerClass@ChangeSound(id, channel, const sample[], Float:vol, Floa
 	server_print("PlayerClass@ChangeSound(%d, %d, %s, %f, %f, %d, %d)", id, channel, sample, vol, attn, flags, pitch);
 #endif
 
-	new this = @this;
+	new this = oo_this();
 
 	new PlayerClassInfo:classinfo_obj = any:oo_call(this, "GetClassInfo");
 	if (classinfo_obj == @null) // no object assigned
@@ -659,28 +667,28 @@ public bool:PlayerClass@ChangeSound(id, channel, const sample[], Float:vol, Floa
 	return true;
 }
 
-public PlayerClass@OnClassChange(bool:assign_props)
+public PlayerClass@OnClassChange(bool:set_props)
 {
 	#if defined DEBUG
 		server_print("PlayerClass@OnClassChange()");
 	#endif
 
-	if (assign_props)
-		oo_call(@this, "AssignProps");
+	if (set_props)
+		oo_call(@this, "SetProps");
 }
 
 // ---------- [Utilities] ----------
 
 // Change player class
-PlayerClass:ChangePlayerClass(id, const class[], bool:assign_props)
+PlayerClass:ChangePlayerClass(id, const class[], bool:set_props)
 {
 	//if (!oo_class_exists(class) || !oo_subclass_of(class, "PlayerClass"))
 	//	return @null;
 
 	// pre
-	ExecuteForward(g_fwChangePlayerClass[FW_PRE], g_fwRet, id, class);
+	ExecuteForward(g_fwChangePlayerClass[FW_PRE], g_fwRet, id, class, set_props);
 
-	// stop forward
+	// block
 	if (g_fwRet >= PLUGIN_HANDLED)
 		return @null;
 
@@ -694,9 +702,9 @@ PlayerClass:ChangePlayerClass(id, const class[], bool:assign_props)
 	// new object
 	g_objPlayerClass[id] = oo_new(class, id);
 
-	oo_call(g_objPlayerClass[id], "OnClassChange", assign_props);
+	oo_call(g_objPlayerClass[id], "OnClassChange", set_props);
 
 	// post
-	ExecuteForward(g_fwChangePlayerClass[FW_POST], g_fwRet, id, class);
+	ExecuteForward(g_fwChangePlayerClass[FW_POST], g_fwRet, id, class, set_props);
 	return g_objPlayerClass[id];
 }

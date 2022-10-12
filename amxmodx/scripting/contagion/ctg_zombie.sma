@@ -17,7 +17,7 @@ public oo_init()
 		oo_ctor(cl, "Ctor", @cell); // (player_index);
 		oo_dtor(cl, "Dtor");
 
-		oo_mthd(cl, "AssignProps");
+		oo_mthd(cl, "SetPropsAfter", @cell);
 		oo_mthd(cl, "GetClassInfo");
 		oo_mthd(cl, "CanPickupItem");
 	}
@@ -35,23 +35,20 @@ public plugin_init()
 
 	oo_call(g_objClassInfo, "CreateCvar", "zombie", "hp", "1500", FCVAR_NONE);
 	oo_call(g_objClassInfo, "CreateCvar", "zombie", "gravity", "0.5", FCVAR_NONE);
-	oo_call(g_objClassInfo, "CreateCvar", "zombie", "speed", "1.5", FCVAR_NONE);
+	oo_call(g_objClassInfo, "CreateCvar", "zombie", "speed", "0.95", FCVAR_NONE);
 }
 
 public Zombie@Ctor(player_index)
 {
 	oo_super_ctor("PlayerClass", player_index);
 }
+
 public Zombie@Dtor() {}
 
-public Zombie@AssignProps()
+public Zombie@SetPropsAfter(id)
 {
-	new this = @this;
-	new id = oo_get(this, "player_index");
-	
-	oo_call(this, "PlayerClass@AssignProps");
 	DropPlayerWeapons(id);
-	cs_set_user_team(id, CS_TEAM_T, CS_NORESET, true);
+	SetPlayerTeam(id, CS_TEAM_T);
 }
 
 public PlayerClassInfo:Zombie@GetClassInfo()

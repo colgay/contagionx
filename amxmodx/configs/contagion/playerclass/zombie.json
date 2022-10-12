@@ -17,6 +17,9 @@
         "weapons/knife_stab.wav": ["zombie/claw_strike3.wav"],
         "player/bhit_flesh-1.wav": ["zombie/zo_pain1.wav"],
         "player/bhit_flesh-2.wav": ["zombie/zo_pain2.wav"],
-        "player/bhit_flesh-3.wav": ["zombie/zo_pain1.wav", "zombie/zo_pain2.wav"]
+        "player/bhit_flesh-3.wav": ["zombie/zo_pain1.wav", "zombie/zo_pain2.wav"],
+        "player/headshot1.wav": ["misc/killChicken.wav"],
+        "player/headshot2.wav": ["misc/killChicken.wav"],
+        "player/headshot3.wav": ["misc/killChicken.wav"]
     }
 }

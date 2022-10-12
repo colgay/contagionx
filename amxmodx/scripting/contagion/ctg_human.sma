@@ -1,8 +1,12 @@
 #include <amxmodx>
 #include <cstrike>
+#include <fakemeta>
+#include <hamsandwich>
 #include <oo>
 
 #include <ctg_const>
+#include <ctg_playerclass>
+#include <ctg_util>
 
 new PlayerClassInfo:g_objClassInfo;
 
@@ -14,9 +18,10 @@ public oo_init()
 		oo_ctor(cl, "Ctor", @cell); // (player_index);
 		oo_dtor(cl, "Dtor");
 
-		oo_mthd(cl, "AssignProps");
+		oo_mthd(cl, "SetPropsAfter", @cell);
 		oo_mthd(cl, "GetClassInfo");
 		oo_mthd(cl, "CanPickupItem");
+		oo_mthd(cl, "CanDropItem");
 	}
 }
 
@@ -29,6 +34,27 @@ public plugin_precache()
 public plugin_init()
 {
 	register_plugin("[CTG] Human", CTG_VERSION, "holla");
+
+	RegisterHam(Ham_CS_Item_CanDrop, "player", "OnItemCanDrop");
+}
+
+public OnItemCanDrop(ent)
+{
+	if (!pev_valid(ent))
+		return HAM_IGNORED;
+	
+	new player = get_ent_data_entity(ent, "CBasePlayerItem", "m_pPlayer");
+	if (!is_user_connected(player))
+		return HAM_IGNORED;
+
+	new PlayerClass:obj = ctg_playerclass_get(ent);
+	if (obj != @null && oo_isa(obj, "Human", true))
+	{
+		SetHamReturnInteger(oo_call(obj, "CanDropItem") ? 1 : 0);
+		return HAM_OVERRIDE;
+	}
+
+	return HAM_IGNORED;
 }
 
 public Human@Ctor(player_index)
@@ -38,12 +64,9 @@ public Human@Ctor(player_index)
 
 public Human@Dtor() { }
 
-public Human@AssignProps()
+public Human@SetPropsAfter(id)
 {
-	new this = @this;
-	new id = oo_get(this, "player_index");
-	oo_call(@this, "PlayerClass@AssignProps");
-	cs_set_user_team(id, CS_TEAM_CT, CS_NORESET, true);
+	SetPlayerTeam(id, CS_TEAM_CT);
 }
 
 public PlayerTeam:Human@GetTeam()
@@ -57,6 +80,11 @@ public PlayerClassInfo:Human@GetClassInfo()
 }
 
 public bool:Human@CanPickupItem()
+{
+	return true;
+}
+
+public bool:Human@CanDropItem()
 {
 	return true;
 }

@@ -219,7 +219,7 @@ public OnEventJoinTeam()
 
 	new id = get_user_index(name);
 	if (!is_user_connected(id))
-	return;
+		return;
 	
 	static teamchar[2];
 	read_logargv(2, teamchar, charsmax(teamchar));
@@ -233,10 +233,14 @@ public OnEventJoinTeam()
 		case 'S': team = 3;
 	}
 
+	server_print("haha %s haha", teamchar[0]);
+
 	if (team)
 	{
 		if (g_objCurrGameMode != @null)
+		{
 			oo_call(g_objCurrGameMode, "OnJoinTeam", id, team);
+		}
 	}
 }
 
@@ -289,8 +293,6 @@ public client_disconnected(id)
 
 public OrpheuHookReturn:OnCheckWinConditions()
 {
-	InitializePlayerCounts();
-
 	if (g_objCurrGameMode != @null)
 		oo_call(g_objCurrGameMode, "WinConditions");
 
@@ -299,7 +301,7 @@ public OrpheuHookReturn:OnCheckWinConditions()
 
 public GameMode@Ctor()
 {
-	new this = @this;
+	new this = oo_this();
 	oo_set(this, "is_started", false);
 	oo_set(this, "is_ended", false);
 	oo_set(this, "is_deathmatch", false);
@@ -328,20 +330,20 @@ public GameMode@OnPlayerKilled(id)
 
 public GameMode@Start()
 {
-	new this = @this;
+	new this = oo_this();
 	oo_set(this, "is_started", true);
 	oo_set(this, "is_ended", false);
 }
 
 public GameMode@End()
 {
-	new this = @this;
+	new this = oo_this();
 	oo_set(this, "is_ended", true);
 }
 
 public GameMode@Think(ent)
 {
-	new this = @this;
+	new this = oo_this();
 	new Float:curr_time = get_gametime();
 
 	// gamemode is started
@@ -385,6 +387,7 @@ public GameMode@Think(ent)
 
 public GameMode@WinConditions()
 {
+	InitializePlayerCounts();
 }
 
 public GameMode@RoundTimeExpired()
@@ -438,7 +441,7 @@ public bool:GameMode@CanPlayerRespawn(id)
 	if (!IsPlayerSpawnable(id))
 		return false;
 
-	new this = @this;
+	new this = oo_this();
 	// gamemode is not started OR ended OR not deathmatch
 	if (!oo_get(this, "is_started") || oo_get(this, "is_ended") || !oo_get(this, "is_deathmatch"))
 		return false;

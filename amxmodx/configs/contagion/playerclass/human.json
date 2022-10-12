@@ -4,6 +4,6 @@
         "weapon_knife": "models/v_knife_r.mdl"
     },
     "sounds" : {
-        "weapons/knife_hitwall1.wav": ["weapons/scout_fire-1.wav"] // test
+        "weapons/knife_hitwall1.wav": ["weapons/scout_fire-1.wav"]
     }
 }

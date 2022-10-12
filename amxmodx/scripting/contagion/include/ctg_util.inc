@@ -11,6 +11,15 @@
 #define @CBPITEM	"CBasePlayerItem"
 #define @CBMON		"CBaseMonster"
 
+stock const CSW_SLOTS_BITS[CS_WEAPONSLOT_C4+1] = {
+	0,
+	CSW_ALL_SHOTGUNS|CSW_ALL_SMGS|CSW_ALL_RIFLES|CSW_ALL_SNIPERRIFLES|CSW_ALL_MACHINEGUNS,
+	CSW_ALL_PISTOLS,
+	(1<<CSW_KNIFE),
+	CSW_ALL_GRENADES,
+	(1<<CSW_C4)
+};
+
 enum
 {
 	WINSTATUS_NONE = 0,
@@ -133,4 +142,69 @@ stock TerminateRound(Float:delay, status, event, const message[], const audio[]=
 stock IsPlayerSpawnable(id)
 {
 	return (CS_TEAM_T <= cs_get_user_team(id) <= CS_TEAM_CT) && get_ent_data(id, @CBPLR, "m_iMenu") != _:CS_Menu_ChooseAppearance;
+}
+
+stock SendDeathMsg(attacker, victim, headshot=0, const weapon[]="")
+{
+	static msgDeathMsg;
+	msgDeathMsg || (msgDeathMsg = get_user_msgid("DeathMsg"));
+
+	message_begin(MSG_BROADCAST, msgDeathMsg);
+	write_byte(attacker); // killer
+	write_byte(victim); // victim
+	write_byte(headshot); // headshot flag
+	write_string(weapon); // killer's weapon
+	message_end();
+}
+
+stock FixDeadAttrib(id)
+{
+	static msgScoreAttrib;
+	msgScoreAttrib || (msgScoreAttrib = get_user_msgid("ScoreAttrib"));
+
+	message_begin(MSG_BROADCAST, msgScoreAttrib);
+	write_byte(id); // id
+	write_byte(0); // attrib
+	message_end();
+}
+
+stock SetPlayerTeam(id, CsTeams:team, bool:scoreboard=true, bool:ignorecheck=false)
+{
+	if (!ignorecheck && cs_get_user_team(id) == team)
+		return;
+	
+	cs_set_user_team(id, _:team, CS_NORESET, false);
+
+	if (scoreboard)
+	{
+		static msgTeamInfo;
+		msgTeamInfo || (msgTeamInfo = get_user_msgid("TeamInfo"));
+		
+		emessage_begin(MSG_BROADCAST, msgTeamInfo);
+		ewrite_byte(id);
+		switch (team)
+		{
+			case CS_TEAM_T: 		ewrite_string("TERRORIST");
+			case CS_TEAM_CT: 		ewrite_string("CT");
+			case CS_TEAM_SPECTATOR: ewrite_string("SPECTATOR");
+			default: 				ewrite_string("UNASSIGNED");
+		}
+		emessage_end();
+		
+		UpdateScoreInfo(id);
+	}
+}
+
+stock UpdateScoreInfo(id, class=0)
+{
+	static msgScoreInfo;
+	msgScoreInfo || (msgScoreInfo = get_user_msgid("ScoreInfo"));
+	
+	emessage_begin(MSG_BROADCAST, msgScoreInfo);
+	ewrite_byte(id); // player
+	ewrite_short(get_user_frags(id)); // frags
+	ewrite_short(cs_get_user_deaths(id)); // deaths
+	ewrite_short(class); // class
+	ewrite_short(_:cs_get_user_team(id)); // team
+	emessage_end();
 }
