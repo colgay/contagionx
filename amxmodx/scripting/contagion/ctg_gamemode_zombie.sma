@@ -1,5 +1,6 @@
 #include <amxmodx>
 #include <cstrike>
+#include <engine>
 #include <fakemeta>
 #include <hamsandwich>
 #include <orpheu>
@@ -11,6 +12,7 @@
 #include <ctg_util>
 
 new Float:CvarStartTime;
+new CvarLights[STRLEN_SHORT];
 
 public oo_init()
 {
@@ -51,6 +53,19 @@ public plugin_init()
 
 	new pcvar = create_cvar("ctg_gamemode_start_time", "20.0");
 	bind_pcvar_float(pcvar, CvarStartTime);
+
+	pcvar = create_cvar("ctg_gamemode_lights", "c");
+	bind_pcvar_string(pcvar, CvarLights, charsmax(CvarLights));
+	hook_cvar_change(pcvar, "OnCvarLights");
+}
+
+public OnCvarLights(pcvar, const old_value[], const new_value[])
+{
+	new GameMode:mode_obj = ctg_gamemode_get_current();
+	if (mode_obj == @null || !oo_isa(mode_obj, "ZombieMode", true))
+		return;
+	
+	set_lights(new_value);
 }
 
 public OnPlayerTakeDamage(id, inflictor, attacker, Float:damage, damagebits)
@@ -135,6 +150,8 @@ public ZombieMode@Start()
 
 	oo_set(this, "is_deathmatch", true);
 	oo_set(this, "allow_infect", true);
+
+	set_lights(CvarLights);
 }
 
 public ZombieMode@End()
@@ -179,14 +196,14 @@ public ZombieMode@WinConditions()
 	if (spawnable_count > 1 && human_count < 1) // all humans are dead
 	{
 		TerminateRound(10.0, WINSTATUS_TERRORISTS, ROUND_TERRORISTS_WIN, "Zombies Win", "terwin");
-		oo_call(oo_this(), "End");
+		oo_call(this, "End");
 		return;
 	}
 
 	if (spawnable_count > 1 && zombie_count < 1 && human_count < 1) // all players are dead
 	{
 		TerminateRound(5.0, WINSTATUS_DRAW, ROUND_END_DRAW, "Round Draw", "rounddraw");
-		oo_call(oo_this(), "End");
+		oo_call(this, "End");
 		return;
 	}
 }
@@ -242,6 +259,8 @@ public ZombieMode@OnNewRound()
 		
 		ctg_playerclass_change(i, "Human", false);
 	}
+
+	set_lights("");
 }
 
 public ZombieMode@OnJoinTeam(id, CsTeams:team)

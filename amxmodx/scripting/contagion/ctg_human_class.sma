@@ -3,6 +3,7 @@
 #include <ctg_const>
 
 new Array:g_aHumanClasses;
+new Array:g_aHumanClassCount;
 new g_HumanClassCount;
 
 public oo_init()
@@ -15,6 +16,7 @@ public oo_init()
 	}
 
 	g_aHumanClasses = ArrayCreate(1);
+	g_aHumanClassCount = ArrayCreate(1);
 }
 
 public plugin_init()
